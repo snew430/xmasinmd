@@ -17,12 +17,12 @@ function App() {
     <Router>
       <Navigation />
       <Routes>
-        <Route path="/xmasinmd" element={<Home />} />
-        <Route path="/xmasinmd/hour" element={<Hour />} />
-        <Route path="/xmasinmd/stations" element={<Stations />} />
-        <Route path="/xmasinmd/about" element={<About />} />
-        <Route path="/xmasinmd/contact" element={<Contact />} />
-        <Route path="/xmasinmd/*" element={<NoMatch />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/hour" element={<Hour />} />
+        <Route path="/stations" element={<Stations />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/*" element={<NoMatch />} />
       </Routes>
       <Sponsors />
       <Footer sticky="bottom" />
