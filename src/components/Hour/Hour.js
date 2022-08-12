@@ -37,10 +37,11 @@ const Hour = () => {
         </ButtonGroup>
       </div>
       <h3 id="hourHeader">Hour 1</h3>
-      <section>
+      <section className="hour-section">
         {currentHour.map((hourcontent) => (
           <>
             <p>{hourcontent}</p>
+            <hr />
           </>
         ))}
       </section>

@@ -3,6 +3,15 @@ const hour1 = [
   'Feature - Maryland"s Charlie Brown Christmas Tree',
   'Let it Snow, Let it Snow, Let it Snow! - Michael Buble',
   'Feature - A Williamsport Christmas',
+  'Winter Wonderland - Eurythmics',
+  'Feature - Mountain Maryland Celebrates Christmas',
+  'Same Old Lang Syne - Dan Fogelberg',
+  'Feature - Ocean City Winterfest of Lights',
+  'The Most Wonderful Time of the Year - Johnny Mathis',
+  'Do You Hear What I Hear? - Carrie Underwood',
+  'We Need A Little Christmas - Percy Faith',
+  'Feature - Cumberland is Christmas',
+  'Last Christmas - Taylor Swift',
 ];
 
 const hour2 = [

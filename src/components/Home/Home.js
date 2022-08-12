@@ -6,7 +6,11 @@ import Snowfall from 'react-snowfall';
 const Home = () => {
   return (
     <div className="home-body">
-      <Snowfall color="lightblue" style={{ width: '100vw', height: '50vh' }} />
+      <Snowfall
+        color="lightblue"
+        snowflakeCount={150}
+        style={{ width: '100vw', height: '50vh' }}
+      />
 
       <div className="home-banner">
         <img className="banner-image" src={santa} alt="" />
