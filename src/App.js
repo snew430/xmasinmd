@@ -1,3 +1,4 @@
+import { useState, useRef } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import {
@@ -11,11 +12,15 @@ import {
   Contact,
   NoMatch,
 } from './components/index';
+// import DateCountdown from 'react-date-countdown-timer';
 
 function App() {
+  // const [tilXmas] = useState('2022-12-25');
+
   return (
     <Router>
       <Navigation />
+      {/* <DateCountdown dateTo={tilXmas} callback={() => alert('Hello')} /> */}
       <Routes>
         <Route path="/xmasinmd" element={<Home />} />
         <Route path="/hour" element={<Hour />} />

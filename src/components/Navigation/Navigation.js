@@ -27,6 +27,9 @@ const Navigation = () => {
               <Nav.Link as={Link} to="/hour">
                 Hours
               </Nav.Link>
+              <Nav.Link as={Link} to="/stations">
+                Stations
+              </Nav.Link>
               <Nav.Link as={Link} to="/about">
                 About
               </Nav.Link>

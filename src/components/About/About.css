@@ -7,9 +7,24 @@
 .card {
   width: 30%;
   margin-right: 15px;
+  text-align: center;
 }
 
 .bio-text {
   width: 70%;
   padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .biography {
+    flex-direction: column;
+  }
+  .bio-text {
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+  }
+  .card {
+    margin-right: 0px;
+  }
 }

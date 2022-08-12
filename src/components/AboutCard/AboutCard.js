@@ -8,7 +8,7 @@ const AboutCard = ({ person }) => {
   return (
     <div className="biography">
       <Card className="card" style={{ width: '18rem' }}>
-        <Card.Img variant="top" src={pic} />
+        <Card.Img className="card-image" variant="top" src={pic} />
         <Card.Body>
           <Card.Title>{title}</Card.Title>
         </Card.Body>

@@ -1,10 +1,13 @@
 import React from 'react';
 import './Home.css';
 import santa from '../../assets/images/962.jpg';
+import Snowfall from 'react-snowfall';
 
 const Home = () => {
   return (
     <div className="home-body">
+      <Snowfall color="lightblue" style={{ width: '100vw', height: '50vh' }} />
+
       <div className="home-banner">
         <img className="banner-image" src={santa} alt="" />
         <h2 className="home-header">Christmas in Maryland...</h2>

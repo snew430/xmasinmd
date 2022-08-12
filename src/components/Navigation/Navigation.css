@@ -1,6 +1,1 @@
 @import '../../assets/css/constants.css';
-
-.navbar {
-  background-color: var(--green);
-  color: var(--red);
-}
