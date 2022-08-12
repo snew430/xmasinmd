@@ -1,10 +1,15 @@
 import React from 'react';
 import './Home.css';
+import santa from '../../assets/images/962.jpg';
 
 const Home = () => {
   return (
-    <div className='home-body'>
-      <h2>Christmas in Maryland...</h2>
+    <div className="home-body">
+      <div className="home-banner">
+        <img className="banner-image" src={santa} alt="" />
+        <h2 className="home-header">Christmas in Maryland...</h2>
+      </div>
+
       <p>On "Q" Productions proudly presents Christmas in Maryland</p>
       <p>
         Christmas in Maryland is a 14-hour audio journey that lets listeners

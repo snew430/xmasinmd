@@ -1,8 +1,28 @@
 .home-body {
   text-align: center;
   padding: 3rem;
+  /* display: flex; */
+  /* flex-direction: column;
+  justify-content: center; */
 }
-
 .home-body h2 {
   color: var(--trinary);
+}
+
+.home-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15rem;
+}
+
+.home-header {
+  font-size: 3rem;
+}
+
+.banner-image {
+  width: 15rem;
+  position: absolute;
+  /* left: 30%; */
+  z-index: -999;
 }

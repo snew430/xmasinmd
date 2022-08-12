@@ -5,8 +5,8 @@
   justify-content: center;
   height: 10vh;
   align-items: center;
-  position: sticky;
-  bottom: 0;
+  /* position: sticky; */
+  /* bottom: 0; */
   background-color: var(--primary);
 }
 

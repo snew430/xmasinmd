@@ -25,32 +25,15 @@ const Navigation = () => {
               <Nav.Link as={Link} to="/">
                 Home
               </Nav.Link>
+              <Nav.Link as={Link} to="/hour">
+                Hours
+              </Nav.Link>
               <Nav.Link as={Link} to="/about">
                 About
               </Nav.Link>
               <Nav.Link as={Link} to="/contact">
                 Contact
               </Nav.Link>
-              <NavDropdown title="Hours" id="basic-nav-dropdown">
-                <NavDropdown.Item as={Link} to="/hour">
-                  Hour1
-                </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/hour">
-                  Hour2
-                </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/hour">
-                  Hour3
-                </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/hour">
-                  Hour4
-                </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/hour">
-                  Hour5
-                </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/hour">
-                  Hour6
-                </NavDropdown.Item>
-              </NavDropdown>
             </Nav>
           </Navbar.Collapse>
         </Container>

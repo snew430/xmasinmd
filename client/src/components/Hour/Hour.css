@@ -1,0 +1,17 @@
+.hour-buttons {
+  margin: 1rem;
+  text-align: center;
+}
+
+.btn {
+  background-color: var(--trinary);
+}
+
+.hour-info {
+  padding: 2rem;
+  text-align: center;
+}
+
+#hourHeader {
+  color: var(--trinary);
+}
