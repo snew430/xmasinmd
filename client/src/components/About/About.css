@@ -1,0 +1,15 @@
+.biography {
+  display: flex;
+  margin: 25px;
+  align-items: center;
+}
+
+.card {
+  width: 30%;
+  margin-right: 15px;
+}
+
+.bio-text {
+  width: 70%;
+  padding: 20px;
+}

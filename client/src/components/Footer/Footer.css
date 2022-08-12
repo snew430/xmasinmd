@@ -1,0 +1,18 @@
+@import '../../assets/css/constants.css';
+
+.footer {
+  display: flex;
+  justify-content: center;
+  height: 10vh;
+  align-items: center;
+  position: sticky;
+  bottom: 0;
+  background-color: var(--primary);
+}
+
+.icon {
+  font-size: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  color: var(--trinary);
+}

@@ -1,0 +1,15 @@
+h5 {
+  text-align: center;
+  color: var(--primary);
+}
+
+.sponsor-links {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
+.sponsor-links a {
+  text-decoration: none;
+  color: green;
+}

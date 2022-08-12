@@ -8,7 +8,13 @@ import { Link } from 'react-router-dom';
 const Navigation = () => {
   return (
     <>
-      <Navbar bg="success" variant="dark" expand="lg" sticky="top">
+      <Navbar
+        className="navbar"
+        bg="success"
+        variant="dark"
+        expand="lg"
+        sticky="top"
+      >
         <Container>
           <Navbar.Brand as={Link} to="/">
             Christmas in Maryland
