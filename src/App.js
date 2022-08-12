@@ -1,4 +1,3 @@
-import { useState, useRef } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import {
@@ -10,7 +9,6 @@ import {
   Stations,
   Sponsors,
   Contact,
-  NoMatch,
 } from './components/index';
 // import DateCountdown from 'react-date-countdown-timer';
 

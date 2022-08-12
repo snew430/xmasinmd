@@ -17,9 +17,11 @@
   padding: 20px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .biography {
     flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .bio-text {
     width: 90%;

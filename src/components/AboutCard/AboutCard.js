@@ -1,5 +1,4 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 const AboutCard = ({ person }) => {
@@ -13,7 +12,10 @@ const AboutCard = ({ person }) => {
           <Card.Title>{title}</Card.Title>
         </Card.Body>
       </Card>
-      <p className="bio-text">{bio}</p>
+      <p className="bio-text">
+        {bio}
+        {link}
+      </p>
     </div>
   );
 };
