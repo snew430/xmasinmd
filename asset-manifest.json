@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/xmasinmd/static/css/main.a3609ede.css",
+    "main.js": "/xmasinmd/static/js/main.7250d8b7.js",
+    "static/media/962.jpg": "/xmasinmd/static/media/962.68c12e57879d9cf32a34.jpg",
+    "index.html": "/xmasinmd/index.html",
+    "main.a3609ede.css.map": "/xmasinmd/static/css/main.a3609ede.css.map",
+    "main.7250d8b7.js.map": "/xmasinmd/static/js/main.7250d8b7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3609ede.css",
+    "static/js/main.7250d8b7.js"
+  ]
+}
