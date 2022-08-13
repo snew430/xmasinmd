@@ -17,3 +17,19 @@ h5 {
   text-decoration: none;
   color: var(--trinary);
 }
+
+@media screen and (max-width: 600px) {
+  .sponsor-links {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .sponsor-links a {
+    margin: auto;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+  }
+}
