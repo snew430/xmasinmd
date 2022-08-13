@@ -10,7 +10,7 @@ const AboutCard = ({ person }) => {
         <Card.Img className="card-image" variant="top" src={pic} />
         <Card.Body>
           <Card.Title>
-            <a href={link} target="_blank">
+            <a href={link} target="_blank" rel="noreferrer">
               {title}
             </a>
           </Card.Title>
