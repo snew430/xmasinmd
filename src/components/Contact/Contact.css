@@ -1,0 +1,14 @@
+.contact-title {
+  font-family: 'Mountains of Christmas', cursive;
+  font-weight: 700;
+  font-size: 3rem;
+  color: var(--primary);
+  text-align: center;
+  text-decoration: none;
+}
+
+.contact-item {
+  margin: 3rem;
+  color: var(--trinary);
+  text-align: center;
+}
