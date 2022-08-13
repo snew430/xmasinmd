@@ -1,6 +1,10 @@
 h5 {
   text-align: center;
   color: var(--primary);
+  font-family: 'Mountains of Christmas', cursive;
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--trinary);
 }
 
 .sponsor-links {
@@ -11,5 +15,5 @@ h5 {
 
 .sponsor-links a {
   text-decoration: none;
-  color: green;
+  color: var(--trinary);
 }

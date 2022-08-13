@@ -31,6 +31,12 @@
   z-index: -1;
 }
 
+.p-text {
+  border: 5px dotted var(--trinary);
+  border-radius: 40px;
+  padding: 4rem;
+}
+
 @media screen and (max-width: 600px) {
   .home-header {
     font-size: 4rem;

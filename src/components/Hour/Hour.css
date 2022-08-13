@@ -13,7 +13,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 5px solid;
 }
 
 #hourHeader {
@@ -22,6 +21,7 @@
 
 .hour-section {
   border: 5px dotted var(--trinary);
+  border-radius: 40px;
   padding: 2rem;
   width: 75%;
   margin: auto;
