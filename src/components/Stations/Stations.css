@@ -1,0 +1,15 @@
+.station-card {
+  border: 3px dotted var(--trinary);
+  text-align: center;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.tune {
+  text-align: center;
+  margin-top: 3rem;
+  color: var(--primary);
+  font-family: 'Mountains of Christmas', cursive;
+  font-weight: 700;
+  font-size: 4rem;
+}
