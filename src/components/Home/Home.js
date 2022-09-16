@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import santa from '../../assets/images/962.jpg';
+import flag from '../../assets/images/flag.jpg';
 import Snowfall from 'react-snowfall';
 
 const Home = () => {
@@ -13,7 +14,7 @@ const Home = () => {
       />
 
       <div className="home-banner">
-        <img className="banner-image" src={santa} alt="" />
+        <img className="banner-image" src={flag} alt="" />
         <h2 className="home-header">Christmas in Maryland...</h2>
       </div>
 
