@@ -1,8 +1,46 @@
+/* .station-parent {
+  display: grid;
+  flex-direction: row;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: auto;
+  align-items: center; 
+}*/
+.station-container {
+  position: absolute;
+  height: 300px;
+  width: 600px;
+  top: 60px;
+  align-items: center;
+  flex-direction: row;
+  grid-template-columns: repeat(3, 1fr);
+
+}
+
 .station-card {
-  border: 3px dotted var(--trinary);
-  text-align: center;
-  margin: 2rem;
-  padding: 2rem;
+  display: grid;
+  height: 300px;
+  width: 220px;
+  background-color: #228b22;
+  border-radius: 10px;
+  box-shadow: -1rem 0 3rem rgb(0, 0, 0);
+  transition: 0.4s ease-out;
+  position: relative;
+  left: 0px;
+  
+}
+ /* .station-card:not(:first-child) {
+  margin-left: -50px;
+}  */
+.station-card:hover {
+  transform: translateY(-20px);
+  transition: 0.4s ease-out;
+}
+
+.station-card:hover ~ .card {
+  position: relative;
+  left: 50px;
+  transition: 0.4s ease-out;
 }
 
 .tune {
@@ -12,4 +50,10 @@
   font-family: 'Mountains of Christmas', cursive;
   font-weight: 700;
   font-size: 4rem;
+} 
+a {
+  color: #ff0000;
+  text-decoration: none;
 }
+
+
