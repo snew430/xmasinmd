@@ -30,7 +30,7 @@
 .p-text {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: var(--primary);
-  border: 5px dotted var(--trinary);
+  /* border: 5px dotted var(--trinary); */
   border-radius: 40px;
   padding: 4rem;
   color: aliceblue;

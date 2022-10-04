@@ -7,13 +7,38 @@
   justify-content: center;
 }
 
-
 .card {
   width: 30%;
   margin-right: 15px;
   text-align: center;
   align-items: center;
   justify-content: center;
+}
+
+.card-text {
+  align-items: center;
+  justify-content: center;
+  background-color: var(--trinary);
+  border-radius: 2%;
+  box-shadow: 0.2rem 0 0.85rem rgb(122, 41, 41);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card-body {
+  background-color: var(--primary);
+}
+
+.card-title {
+  color: azure;
+  border-radius: 5%;
+  background-color: var(--secondary);
+  box-shadow: 0.03rem 0 0.25rem rgb(122, 41, 41);
+  font-family: 'Mountains of Christmas', cursive;
+  font-weight: bolder;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
 }
 
 /* .bio-text {
@@ -38,29 +63,4 @@
   .card {
     margin-right: 0px;
   }
-}
-
-.card-text {
-  align-items: center;
-  justify-content: center;
-  background-color: var(--trinary);
-  border-radius: 2%;
-  box-shadow: .20rem 0 .85rem rgb(122, 41, 41);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.card-body {
-  background-color: var(--primary);
-  
-}
-
-.card-title {
-  
-  color: azure;
-  border-radius: 5%;
-  background-color: var(--secondary);
-  box-shadow: .03rem 0 0.25rem rgb(122, 41, 41);
-  font-family: 'Mountains of Christmas', cursive;
-  font-weight: bolder;
-  
-
 }
