@@ -21,7 +21,7 @@
 }
 
 .banner-image {
-  width: 15rem;
+  width: 20rem;
   position: absolute;
   /* left: 30%; */
   z-index: -1;
@@ -32,7 +32,15 @@
   background-color: var(--primary);
   border: 5px dotted var(--trinary);
   border-radius: 40px;
-  padding: 1rem;
+  padding: 4rem;
+  color: aliceblue;
+  font-size: 1.2rem;
+}
+
+.shoutout {
+  color: var(--trinary);
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 600px) {

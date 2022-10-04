@@ -19,13 +19,18 @@ const Home = () => {
       </div>
 
       <section className="p-text">
-        <p>On "Q" Productions proudly presents Christmas in Maryland</p>
         <p>
-          Christmas in Maryland is a 14-hour audio journey that lets listeners
-          pause and feel the tradition that lives nestled between the mountains
-          of Western Maryland and the beaches of the Atlantic shore. Christmas
-          in Maryland takes you from the big city to the small towns of
-          Maryland, capturing the stories of the season at every stop.
+          <span className="shoutout">On "Q" Productions</span> proudly presents{' '}
+          <span className="shoutout">Christmas in Maryland</span>
+        </p>
+        <p>
+          <span className="shoutout">Christmas in Maryland</span> is a 14-hour
+          audio journey that lets listeners pause and feel the tradition that
+          lives nestled between the mountains of Western Maryland and the
+          beaches of the Atlantic shore.{' '}
+          <span className="shoutout">Christmas in Maryland</span> takes you from
+          the big city to the small towns of Maryland, capturing the stories of
+          the season at every stop.
         </p>
 
         <p>
@@ -44,19 +49,19 @@ const Home = () => {
         </p>
 
         <p>
-          Christmas in Maryland has captured Maryland at Christmastime. it's the
-          guy with two-hundred-thousand holiday lights in his yard. It's
-          spending time with family in Little Italy on Christmas Eve. It's
-          taking a sleigh ride through Frostburg and living the dream of the
-          Western Maryland Polar Express. It's also a visit behind the counter
-          in Bethlehem, Maryland as special postmarks are affixed to holiday
-          mail.
+          <span className="shoutout">Christmas in Maryland</span> has captured
+          Maryland at Christmastime. it's the guy with two-hundred-thousand
+          holiday lights in his yard. It's spending time with family in Little
+          Italy on Christmas Eve. It's taking a sleigh ride through Frostburg
+          and living the dream of the Western Maryland Polar Express. It's also
+          a visit behind the counter in Bethlehem, Maryland as special postmarks
+          are affixed to holiday mail.
         </p>
 
         <p>
           And we'll meet some famous Marylanders including John Waters, Pat
           Sajak, John Harbaugh, Cal Ripken, Jr., and Boog Powell, to see what
-          Christmas in Maryland means to them.
+          <span className="shoutout">Christmas in Maryland</span> means to them.
         </p>
 
         <p>

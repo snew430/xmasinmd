@@ -6,26 +6,23 @@ const Stations = () => {
   return (
     <>
       <h3 className="tune">Stations to Tune Into...</h3>
-      {stations.map(({ name, location, freq, dates, link }) => (
-        
-        <div class="station-conatiner">
-        <div key={name} className="station-card">
-          <h5>{name}</h5>
-          <p>
-            ({location}) - {freq}
-          </p>
-          <p>
-            Dates
-            {dates.map((date) => (
-              <p key={date}>{date}</p>
-            ))}
-          </p>
-          <a href={link}>Website</a>
-          
-        </div>
-        </div>
-        
-      ))}
+      <div className="station-container">
+        {stations.map(({ name, location, freq, dates, link }) => (
+          <div key={name} className="station-card">
+            <h5>{name}</h5>
+            <p>
+              ({location}) - {freq}
+            </p>
+            <div>
+              Dates
+              {dates.map((date) => (
+                <p key={name + date}>{date}</p>
+              ))}
+            </div>
+            <a href={link}>Website</a>
+          </div>
+        ))}
+      </div>
     </>
   );
 };

@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
 :root {
   --primary: #198753;
   --secondary: #a1dffe;
-  --trinary: #f83131;
+  --trinary: #c90000;
   --quad: #c6d5e0;
 }

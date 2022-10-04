@@ -35,6 +35,15 @@
   color: var(--primary);
 }
 
+.coming-soon {
+  font-family: 'Mountains of Christmas', cursive;
+  color: var(--primary);
+  font-size: 4rem;
+  text-decoration: underline;
+  text-align: center;
+  height: 50vh;
+}
+
 @media screen and (max-width: 600px) {
   .btn {
     font-size: 0.7rem;
