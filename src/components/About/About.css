@@ -2,24 +2,31 @@
   display: flex;
   margin: 3rem;
   align-items: center;
-  padding-left: 20%;
-  padding-right: 20%;
+  /* padding-left: 20%;
+  padding-right: 20%; */
+  justify-content: center;
 }
+
 
 .card {
   width: 30%;
   margin-right: 15px;
   text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
-.bio-text {
+/* .bio-text {
   width: 70%;
   padding: 20px;
-}
+  align-items: center;
+  justify-content: center;
+} */
 
 @media screen and (max-width: 800px) {
   .biography {
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
     padding-left: 0px;
     padding-right: 0px;
   }
@@ -31,4 +38,29 @@
   .card {
     margin-right: 0px;
   }
+}
+
+.card-text {
+  align-items: center;
+  justify-content: center;
+  background-color: var(--trinary);
+  border-radius: 2%;
+  box-shadow: .20rem 0 .85rem rgb(122, 41, 41);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card-body {
+  background-color: var(--primary);
+  
+}
+
+.card-title {
+  
+  color: azure;
+  border-radius: 5%;
+  background-color: var(--secondary);
+  box-shadow: .03rem 0 0.25rem rgb(122, 41, 41);
+  font-family: 'Mountains of Christmas', cursive;
+  font-weight: bolder;
+  
+
 }

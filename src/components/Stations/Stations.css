@@ -21,7 +21,7 @@
   display: grid;
   height: 300px;
   width: 220px;
-  background-color: #228b22;
+  background-color: var(--primary);
   border-radius: 10px;
   box-shadow: -1rem 0 3rem rgb(0, 0, 0);
   transition: 0.4s ease-out;
@@ -52,7 +52,7 @@
   font-size: 4rem;
 } 
 a {
-  color: #ff0000;
+  color: var(--trinary);
   text-decoration: none;
 }
 
