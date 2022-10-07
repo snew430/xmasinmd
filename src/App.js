@@ -9,6 +9,7 @@ import {
   Stations,
   Sponsors,
   Contact,
+  Lights,
 } from './components/index';
 // import DateCountdown from 'react-date-countdown-timer';
 
@@ -18,6 +19,7 @@ function App() {
   return (
     <Router>
       <Navigation />
+      <Lights />
       {/* <DateCountdown dateTo={tilXmas} callback={() => alert('Hello')} /> */}
       <Routes>
         <Route path="/xmasinmd" element={<Home />} />

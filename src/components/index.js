@@ -7,6 +7,7 @@ import About from './About/About';
 import Stations from './Stations/Stations';
 import Sponsors from './Sponsors/Sponsors';
 import NoMatch from './NoMatch/NoMatch';
+import Lights from './Lights/Lights';
 
 export {
   Contact,
@@ -18,4 +19,5 @@ export {
   Stations,
   Sponsors,
   NoMatch,
+  Lights,
 };
