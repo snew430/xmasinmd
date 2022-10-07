@@ -1,55 +1,12 @@
 import React from 'react';
+import CarouselComponent from '../Carousel-Component/Carousel-Component';
 import './Home.css';
 // import santa from '../../assets/images/962.jpg';
 import flag from '../../assets/images/flag.jpg';
-import tree from '../../assets/images/tree.jpg';
-import santaOrnament from '../../assets/images/santa-ornament.jpg';
-import presents from '../../assets/images/presents.jpg';
-import gingerbreadMan from '../../assets/images/gingerbread-man.jpg';
-import fireplace from '../../assets/images/fireplace.jpg';
-import snowyTrees from '../../assets/images/snowy-trees.jpg';
+
 
 import Snowfall from 'react-snowfall';
 
-const carouselSlide = document.querySelector('.carousel-slide');
-const carouselImages = document.querySelectorAll('.carousel-slide img');
-
-const prevBtn = document.querySelector('#prevBtn');
-const nextBtn = document.querySelector('#nextBtn');
-
-let counter = 1;
-const size = carouselImages[0].clientWidth;
-
-carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px';
-
-nextBtn.addEventListener('click', () => {
-  if (counter >= carouselImages.length -1) return;
-  carouselSlide.style.transition = "transform 0.4s ease-in-out";
-  counter++;
-  carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px';
-});
-
-prevBtn.addEventListener('click', () => {
-  if (counter <=0) return;
-  carouselSlide.style.transition = "transform 0.4s ease-in-out";
-  counter--;
-  carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px';
-});
-
-carouselSlide.addEventListener('transitionend', () => {
-  if (carouselImages[counter].id ==='lastClone') {
-    carouselSlide.style.transition = "none";
-    counter = carouselImages.length -2;
-    carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px';
-
-  }
-  if (carouselImages[counter].id ==='firstClone') {
-    carouselSlide.style.transition = "none";
-    counter = carouselImages.length - counter;
-    carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px';
-
-  }
-})
 
 const Home = () => {
   return (
@@ -65,22 +22,8 @@ const Home = () => {
         <h2 className="home-header">Christmas in Maryland...</h2>
       </div>
 
-      <div className='carousel-container'>
-      {/* <i class="fa-sharp fa-solid fa-angle-left" id="prevBtn"></i>
-      <i class="fa-sharp fa-solid fa-angle-right" id="nextBtn"></i> */}
-        <div className='carousel-slide'>
-          <img src={tree} id="lastClone" alt=""/>
-          <img src={santaOrnament}alt=""/> 
-          <img src={presents} alt=""/>
-          {/* <img src={gingerbreadMan} alt=""/> */}
-          <img src={fireplace} alt=""/>
-          <img src={snowyTrees} alt=""/> 
-          <img src={tree} alt=""/>
-          <img src={santaOrnament} id="firstClone" alt='"'/>
-        </div>
-      </div>
-      <button id="prevBtn">Prev</button>
-      <button id="nextBtn">Next</button>
+      
+      <CarouselComponent />
 
       <section className="p-text">
         <p>
