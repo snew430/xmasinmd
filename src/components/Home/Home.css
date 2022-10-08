@@ -1,6 +1,5 @@
 .home-body {
   text-align: center;
-  padding: 3rem;
   z-index: -2;
 }
 .home-body h2 {
@@ -15,7 +14,7 @@
 }
 
 .home-header {
-  font-family: 'Mountains of Christmas', cursive;
+  font-family: var(--cursive);
   font-size: 5rem;
   font-weight: 700;
 }
@@ -23,10 +22,45 @@
 .banner-image {
   width: 20rem;
   position: absolute;
-  /* left: 30%; */
-  z-index: -1;
+  left: 30%; 
+   z-index: -1;
+} 
+
+.carousel-container {
+  width: 40%;
+  margin: auto;
+  border: 5px solid var(--trinary);
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 2%;
 }
 
+.carousel-slide {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  transition: 0.4s ease-in-out;
+}
+
+#prevBtn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  left: 5%;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+#nextBtn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  right: 5%;
+  font-size: 30px;
+  color: var(--primary);
+  cursor: pointer;
+}
 .p-text {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: var(--primary);
@@ -35,6 +69,7 @@
   padding: 4rem;
   color: aliceblue;
   font-size: 1.2rem;
+  margin-top: 35px;
 }
 
 .shoutout {
@@ -42,6 +77,8 @@
   font-size: 1.5rem;
   font-weight: 600;
 }
+
+
 
 @media screen and (max-width: 600px) {
   .home-header {

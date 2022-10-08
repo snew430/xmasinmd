@@ -16,7 +16,7 @@
 }
 
 #hourHeader {
-  font-family: 'Mountains of Christmas', cursive;
+  font-family: var(--cursive);
   font-size: 4rem;
   font-weight: 700;
 
@@ -29,14 +29,14 @@
   padding: 2rem;
   width: 75%;
   margin: auto;
-  font-family: 'Mountains of Christmas', cursive;
+  font-family: var(--cursive);
   font-size: 2rem;
   font-weight: 700;
   color: var(--primary);
 }
 
 .coming-soon {
-  font-family: 'Mountains of Christmas', cursive;
+  font-family: var(--cursive);
   color: var(--primary);
   font-size: 4rem;
   text-decoration: underline;

@@ -8,19 +8,21 @@ const Stations = () => {
       <h3 className="tune">Stations to Tune Into...</h3>
       <div className="station-container">
         {stations.map(({ name, location, freq, dates, link }) => (
+           <a href={link}>
           <div key={name} className="station-card">
-            <h5>{name}</h5>
-            <p>
+            <h5 className="station-name">{name}</h5>
+            <p className="station-location">
               ({location}) - {freq}
             </p>
-            <div>
+            <div className="station-dates">
               Dates
               {dates.map((date) => (
                 <p key={name + date}>{date}</p>
               ))}
             </div>
-            <a href={link}>Website</a>
+           
           </div>
+          </a>
         ))}
       </div>
     </>

@@ -1,16 +1,19 @@
 h5 {
   text-align: center;
   color: var(--primary);
-  font-family: 'Mountains of Christmas', cursive;
+  font-family: var(--cursive);
   font-weight: 700;
   font-size: 2rem;
   color: var(--trinary);
+  margin-top: 25px;
 }
 
 .sponsor-links {
   display: flex;
   justify-content: space-around;
   margin-bottom: 2rem;
+  font-family: var(--block);
+  font-weight: bold;
 }
 
 .sponsor-links a {

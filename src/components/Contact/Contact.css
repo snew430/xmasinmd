@@ -1,5 +1,5 @@
 .contact-title {
-  font-family: 'Mountains of Christmas', cursive;
+  font-family: var(--cursive);
   font-weight: 700;
   font-size: 3rem;
   color: var(--primary);
