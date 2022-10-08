@@ -1,6 +1,5 @@
 .home-body {
   text-align: center;
-  padding: 3rem;
   z-index: -2;
 }
 .home-body h2 {
@@ -15,7 +14,7 @@
 }
 
 .home-header {
-  font-family: 'Mountains of Christmas', cursive;
+  font-family: var(--cursive);
   font-size: 5rem;
   font-weight: 700;
 }

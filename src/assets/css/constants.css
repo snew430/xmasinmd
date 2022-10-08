@@ -1,8 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 :root {
-  --primary: #198753;
+  --primary: #295c44;
   --secondary: #a1dffe;
-  --trinary: #c90000;
+  --trinary: #DC3545;
   --quad: #c6d5e0;
+
+  /* --cursive: 'Dancing Script', cursive; */
+  --cursive: 'Pinyon Script', cursive;
+  --block: 'Roboto', sans-serif;
 }
+

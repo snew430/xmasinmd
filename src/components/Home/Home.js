@@ -13,12 +13,11 @@ const Home = () => {
     <div className="home-body">
       <Snowfall
         color="lightblue"
-        snowflakeCount={200}
-        style={{ width: '100vw', height: '45vh' }}
+        snowflakeCount={40}
+        style={{ width: '100vw', height: '100vh', zIndex: '10' }}
       />
 
       <div className="home-banner">
-        <img className="banner-image" src={flag} alt="" />
         <h2 className="home-header">Christmas in Maryland...</h2>
       </div>
 

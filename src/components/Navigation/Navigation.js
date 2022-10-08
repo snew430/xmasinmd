@@ -10,7 +10,7 @@ const Navigation = () => {
     <>
       <Navbar
         className="navbar"
-        bg="success"
+        bg="danger"
         variant="dark"
         expand="lg"
         sticky="top"
