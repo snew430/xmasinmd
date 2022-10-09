@@ -3,7 +3,6 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
-import flag from '../../assets/images/flag.jpg';
 
 const Navigation = () => {
   return (
@@ -17,13 +16,6 @@ const Navigation = () => {
       >
         <Container>
           <Navbar.Brand as={Link} to="/">
-            <img
-              alt=""
-              src={flag}
-              width="30"
-              height="30"
-              className="d-inline-block align-top"
-            />{' '}
             <span className="nav-text">Christmas in Maryland</span>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
