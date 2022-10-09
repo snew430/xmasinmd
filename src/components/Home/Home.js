@@ -16,7 +16,7 @@ const Home = () => {
       />
 
       <div className="home-banner">
-        <h2 className="home-header">Christmas in Maryland...</h2>
+        <h2 className="home-header">Christmas in Maryland</h2>
       </div>
 
       

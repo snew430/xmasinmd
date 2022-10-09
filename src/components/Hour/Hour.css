@@ -42,6 +42,8 @@
   text-decoration: underline;
   text-align: center;
   height: 50vh;
+  margin-top: 15px;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 600px) {
