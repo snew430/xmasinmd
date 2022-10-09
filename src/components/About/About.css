@@ -13,6 +13,7 @@
   text-align: center;
   align-items: center;
   justify-content: center;
+  border: none;
 
   @media screen {
     
@@ -25,24 +26,33 @@
   background-color: var(--trinary);
   border-radius: 2%;
   box-shadow: 0.2rem 0 0.85rem rgb(122, 41, 41);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: var(--block);
+  font-weight: 400;
+  color: white;
 }
 .card-body {
   background-color: var(--primary);
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
 }
 
 .card-title {
-  color: azure;
+  /* color: azure; */
   border-radius: 5%;
-  background-color: var(--secondary);
-  box-shadow: 0.03rem 0 0.25rem rgb(122, 41, 41);
+  /* background-color: var(--secondary); */
+  /* box-shadow: 0.03rem 0 0.25rem rgb(28, 56, 11); */
   font-family: var(--block);
   font-weight: bolder;
+  margin-top: -12px;
+}
+a:hover {
+  text-decoration: none;
+  color: var(--trinary);
 }
 
 .cards {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 /* .bio-text {
@@ -51,6 +61,13 @@
   align-items: center;
   justify-content: center;
 } */
+.card-image {
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  border: none;
+  padding: 5px;
+  background-color: var(--primary);
+}
 
 @media screen and (max-width: 800px) {
   .biography {
@@ -66,5 +83,8 @@
   }
   .card {
     margin-right: 0px;
+  }
+  .cards {
+    flex-direction: column;
   }
 }

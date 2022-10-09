@@ -5,10 +5,10 @@ import './Stations.css';
 const Stations = () => {
   return (
     <>
-      <h3 className="tune">Stations to Tune Into...</h3>
+      <h3 className="tune">Stations to Tune Into</h3>
       <div className="station-container">
         {stations.map(({ name, location, freq, dates, link }) => (
-           <a href={link}>
+           <a href={link} target="_blank" rel="noreferrer">
           <div key={name} className="station-card">
             <h5 className="station-name">{name}</h5>
             <p className="station-location">
