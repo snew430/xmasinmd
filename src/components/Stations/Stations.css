@@ -19,6 +19,7 @@
   margin: 2rem;
   padding: 2rem;
   text-decoration: none;
+  background-image: url("../../assets/images/snowflake-background.jpg");
   
 }
 
@@ -64,12 +65,14 @@ button:hover {
 .station-name {
   font-family: var(--block);
   text-decoration: underline;
+  color: var(--primary);
 }
 
 .station-location {
   font-family: var(--block);
   font-weight:550;
   text-decoration: none;
+  color: var(--primary);
 }
 
 .station-dates {
@@ -79,4 +82,5 @@ button:hover {
   text-decoration: underline;
   justify-content: center;
   align-items: center;
+  color: var(--primary);
 }
