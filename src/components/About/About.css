@@ -2,8 +2,6 @@
   display: flex;
   margin: 3rem;
   align-items: center;
-  /* padding-left: 20%;
-  padding-right: 20%; */
   justify-content: center;
 }
 
@@ -51,12 +49,6 @@ a:hover {
   justify-content: space-evenly;
 }
 
-/* .bio-text {
-  width: 70%;
-  padding: 20px;
-  align-items: center;
-  justify-content: center;
-} */
 .card-image {
   border-top-left-radius: 5%;
   border-top-right-radius: 5%;
