@@ -36,13 +36,18 @@
 }
 
 .coming-soon {
-  font-family: var(--cursive);
   color: var(--primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  margin-top: 15px;
+}
+.coming-soon-h1 {
+  font-family: var(--cursive);
   font-size: 4rem;
   text-decoration: underline;
   text-align: center;
-  height: 50vh;
-  margin-top: 15px;
   font-weight: 700;
 }
 

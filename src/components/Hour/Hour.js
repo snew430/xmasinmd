@@ -13,7 +13,11 @@ const Hour = () => {
   };
 
   // return <div>Show Schedule Coming Soon</div>;
-  return <div className="coming-soon">Hourly Information Coming Soon</div>;
+  return (
+    <div className="coming-soon">
+      <h1 className='coming-soon-h1'>Hourly Information Coming Soon</h1>
+    </div>
+  );
 
   return (
     <div className="hour-info">

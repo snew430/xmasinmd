@@ -22,9 +22,9 @@
 .banner-image {
   width: 20rem;
   position: absolute;
-  left: 30%; 
-   z-index: -1;
-} 
+  left: 30%;
+  z-index: -1;
+}
 
 .carousel-container {
   width: 40%;
@@ -74,11 +74,10 @@
 
 .shoutout {
   color: var(--trinary);
-  font-size: 1.5rem;
+  font-size: 3rem;
   font-weight: 600;
+  font-family: var(--cursive);
 }
-
-
 
 @media screen and (max-width: 600px) {
   .home-header {

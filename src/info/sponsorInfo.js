@@ -1,10 +1,9 @@
 const sponsors = [
   {
     name: 'Archdiocese of Baltimore',
-    website: 'https://cruise.maryland.gov/Pages/default.aspx',
+    website: 'https://www.archbalt.org/',
     logo: '',
   },
-
 ];
 
 export default sponsors;
