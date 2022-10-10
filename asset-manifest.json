@@ -1,14 +1,20 @@
 {
   "files": {
-    "main.css": "/xmasinmd/static/css/main.c7e16431.css",
-    "main.js": "/xmasinmd/static/js/main.ed5409f8.js",
-    "static/media/962.jpg": "/xmasinmd/static/media/962.68c12e57879d9cf32a34.jpg",
-    "index.html": "/xmasinmd/index.html",
-    "main.c7e16431.css.map": "/xmasinmd/static/css/main.c7e16431.css.map",
-    "main.ed5409f8.js.map": "/xmasinmd/static/js/main.ed5409f8.js.map"
+    "main.css": "/static/css/main.9e94be6e.css",
+    "main.js": "/static/js/main.4bfa6e32.js",
+    "static/media/presents-pan.jpg": "/static/media/presents-pan.3501ce692ab035ee289a.jpg",
+    "static/media/santa-ornament-pan.jpg": "/static/media/santa-ornament-pan.3b7c8b0e1e7cb76c26fd.jpg",
+    "static/media/fireplace-pan.jpg": "/static/media/fireplace-pan.51a2409d9d0478d8cda5.jpg",
+    "static/media/lights-pan.jpg": "/static/media/lights-pan.8b69ff87696193aba250.jpg",
+    "static/media/tree-pan.jpg": "/static/media/tree-pan.c224f10ed2a606c64fb9.jpg",
+    "static/media/JohnPatti.jpg": "/static/media/JohnPatti.1a74a9614660a3d2fadc.jpg",
+    "static/media/JoeEvelius.jpg": "/static/media/JoeEvelius.2874d83b950d38007f41.jpg",
+    "index.html": "/index.html",
+    "main.9e94be6e.css.map": "/static/css/main.9e94be6e.css.map",
+    "main.4bfa6e32.js.map": "/static/js/main.4bfa6e32.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7e16431.css",
-    "static/js/main.ed5409f8.js"
+    "static/css/main.9e94be6e.css",
+    "static/js/main.4bfa6e32.js"
   ]
 }
