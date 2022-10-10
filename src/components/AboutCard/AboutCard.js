@@ -5,24 +5,21 @@ const AboutCard = ({ person }) => {
   const { title, bio, pic, link } = person;
 
   return (
-    
     <div className="biography">
       <Card className="card" style={{ width: '18rem' }}>
         <Card.Img className="card-image" variant="top" src={pic} />
         <Card.Body>
           <Card.Title>
-            <a href={link} target="_blank" rel="noreferrer">
+            <a href={`mailto:${link}`} target="_blank" rel="noreferrer">
               {title}
             </a>
           </Card.Title>
           <Card.Text>
-          <p className="bio-text">{bio}</p>
+            <p className="bio-text">{bio}</p>
           </Card.Text>
         </Card.Body>
       </Card>
     </div>
-  
-    
   );
 };
 
