@@ -28,7 +28,7 @@ const Navigation = () => {
                 Hours
               </Nav.Link>
               <Nav.Link as={Link} to="/stations">
-                Stations
+                Radio Stations
               </Nav.Link>
               <Nav.Link as={Link} to="/about">
                 About
