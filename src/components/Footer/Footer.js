@@ -6,8 +6,9 @@ import { AiFillFacebook } from 'react-icons/ai';
 const Footer = () => {
   return (
     <div className="footer">
-      <MdEmail className="icon" />
-      <AiFillFacebook className="icon" />
+      <a href="mailto:santa@christmasinmaryland.com">
+        <MdEmail className="icon" />
+      </a>
     </div>
   );
 };
