@@ -15,7 +15,7 @@ const stations = [
   {
     name: 'WNAV-AM/FM',
     location: 'Annapolis, MD',
-    freq: 'AM 1430',
+    freq: 'AM 1430 & FM 99.9',
     link: 'https://wnav.com/',
     dates: ['Coming Soon'],
   },
