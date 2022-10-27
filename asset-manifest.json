@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.68764b0d.css",
-    "main.js": "/static/js/main.8ad0aa45.js",
+    "main.js": "/static/js/main.b1cf2fea.js",
     "static/media/presents-pan.jpg": "/static/media/presents-pan.3501ce692ab035ee289a.jpg",
     "static/media/santa-ornament-pan.jpg": "/static/media/santa-ornament-pan.3b7c8b0e1e7cb76c26fd.jpg",
     "static/media/fireplace-pan.jpg": "/static/media/fireplace-pan.51a2409d9d0478d8cda5.jpg",
@@ -12,10 +12,10 @@
     "static/media/JoeEvelius.jpg": "/static/media/JoeEvelius.2874d83b950d38007f41.jpg",
     "index.html": "/index.html",
     "main.68764b0d.css.map": "/static/css/main.68764b0d.css.map",
-    "main.8ad0aa45.js.map": "/static/js/main.8ad0aa45.js.map"
+    "main.b1cf2fea.js.map": "/static/js/main.b1cf2fea.js.map"
   },
   "entrypoints": [
     "static/css/main.68764b0d.css",
-    "static/js/main.8ad0aa45.js"
+    "static/js/main.b1cf2fea.js"
   ]
 }
