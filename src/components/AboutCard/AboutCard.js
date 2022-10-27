@@ -16,6 +16,9 @@ const AboutCard = ({ person }) => {
           </Card.Title>
           <Card.Text>
             <p className="bio-text">{bio}</p>
+            <a href={`mailto:${link}`} target="_blank" rel="noreferrer">
+              Email
+            </a>
           </Card.Text>
         </Card.Body>
       </Card>

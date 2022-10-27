@@ -29,7 +29,7 @@ const stations = [
   {
     name: 'WCBC',
     location: 'Cumberland, MD',
-    freq: 'AM 1270',
+    freq: 'AM 1270/ FM 103.1 & FM 107.1',
     link: 'https://www.wcbcradio.com/',
     dates: ['Coming Soon'],
   },
@@ -45,6 +45,13 @@ const stations = [
     location: 'Harve De Grace, MD',
     freq: 'FM 100.5',
     link: 'https://whgmgold.com/',
+    dates: ['Coming Soon'],
+  },
+  {
+    name: 'WJEJ',
+    location: 'Hagerstown, MD',
+    freq: 'AM 1240/FM 104.3',
+    link: 'https://www.wjejradio.com/',
     dates: ['Coming Soon'],
   },
 ];
