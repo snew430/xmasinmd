@@ -5,7 +5,7 @@ import { MdEmail } from 'react-icons/md';
 const Footer = () => {
   return (
     <div className="footer">
-      <a href="mailto:santa@christmasinmaryland.com">
+      <a href="mailto:johnpatti@christmasinmaryland.com,joeevelius@christmasinmaryland.com">
         <MdEmail className="icon" />
       </a>
     </div>
