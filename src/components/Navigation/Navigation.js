@@ -30,6 +30,9 @@ const Navigation = () => {
               <Nav.Link as={Link} to="/stations">
                 Radio Stations
               </Nav.Link>
+              <Nav.Link as={Link} to="/media">
+                Media
+              </Nav.Link>
               <Nav.Link as={Link} to="/about">
                 About
               </Nav.Link>
