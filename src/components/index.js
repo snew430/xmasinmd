@@ -8,12 +8,14 @@ import Stations from './Stations/Stations';
 import Sponsors from './Sponsors/Sponsors';
 import NoMatch from './NoMatch/NoMatch';
 import Lights from './Lights/Lights';
+import Media from './Media/Media';
 
 export {
   Contact,
   Footer,
   Home,
   Hour,
+  Media,
   Navigation,
   About,
   Stations,

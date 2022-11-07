@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import {
   Navigation,
+  Media,
   Footer,
   Home,
   Hour,
@@ -24,6 +25,7 @@ function App() {
         <Route path="/hour" element={<Hour />} />
         <Route path="/stations" element={<Stations />} />
         <Route path="/about" element={<About />} />
+        <Route path="/media" element={<Media />} />
         <Route path="/*" element={<Home />} />
       </Routes>
       <Sponsors />
