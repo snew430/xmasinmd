@@ -1,6 +1,6 @@
 const hour1 = [
-  'Spirit of The Season - Alan Silvestri & Chorus',
-  'Feature - Maryland"s Charlie Brown Christmas Tree',
+  'Feature – Christmas on 34th Street',
+  '“Silver Bells” – Dean Martin (Ray Evans)',
   'Let it Snow, Let it Snow, Let it Snow! - Michael Buble',
   'Feature - A Williamsport Christmas',
   'Winter Wonderland - Eurythmics',

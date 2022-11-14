@@ -4,6 +4,11 @@ const sponsors = [
     website: 'https://www.archbalt.org/',
     logo: '',
   },
+  {
+    name: 'Vaccaro’s Italian Pastry Shop',
+    website: 'https://www.vaccarospastry.com/',
+    logo: '',
+  },
 ];
 
 export default sponsors;
