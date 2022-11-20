@@ -13,29 +13,39 @@ const Media = () => {
   }
 
   return (
-    <div>
-      <ButtonGroup aria-label="Basic example">
-        {media.map((category, i) => (
-          <Button
-            key={i}
-            variant="secondary"
-            onClick={() => changeMedia(category)}
-          >
-            {category.name}
-          </Button>
-        ))}
-      </ButtonGroup>
-      {currentMedia.photos.map((photo, i) => (
-        <img className="photo" src={photo} key={i}></img>
-      ))}
-      {currentMedia.videos.map((video, i) => (
-        <div key={i}></div>
-      ))}
+    <>
+      <div className="buttons">
+        <ButtonGroup aria-label="Basic example" size={'sm'}>
+          {media.map((category, i) => (
+            <Button
+              key={i}
+              variant="secondary"
+              onClick={() => changeMedia(category)}
+            >
+              {category.name}
+            </Button>
+          ))}
+        </ButtonGroup>
+      </div>
+      <div className="media">
+        {currentMedia.audio.length ? (
+          <h2 className="title">Audio Clips</h2>
+        ) : (
+          <></>
+        )}
 
-      {currentMedia.audio.map((aud, i) => (
-        <audio key={i} src={aud} controls />
-      ))}
-    </div>
+        {currentMedia.audio.map((aud, i) => (
+          <audio key={i} src={aud} controls />
+        ))}
+        {currentMedia.videos.map((video, i) => (
+          <div key={i}></div>
+        ))}
+        {currentMedia.photos.length ? <h2 className="title">Photos</h2> : <></>}
+        {currentMedia.photos.map((photo, i) => (
+          <img className="photo" src={photo} key={i}></img>
+        ))}
+      </div>
+    </>
   );
 };
 

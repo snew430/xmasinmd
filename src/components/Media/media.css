@@ -1,4 +1,21 @@
 .photo {
-  /* height: 20vh; */
   width: 40vw;
+  margin: 2rem;
+}
+.title {
+  text-decoration: underline;
+  font-family: var(--cursive);
+  margin: 3rem;
+}
+.buttons {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.media {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

@@ -12,13 +12,6 @@ const Hour = () => {
     setCurrentHour(hour);
   };
 
-  // return <div>Show Schedule Coming Soon</div>;
-  return (
-    <div className="coming-soon">
-      <h1 className='coming-soon-h1'>Hourly Information Coming Soon</h1>
-    </div>
-  );
-
   return (
     <div className="hour-info">
       <div className="hour-buttons">
@@ -37,9 +30,6 @@ const Hour = () => {
           </Button>
           <Button onClick={(e) => changeHour(e, hour5)} variant="success">
             Hour 5
-          </Button>
-          <Button onClick={(e) => changeHour(e, hour6)} variant="success">
-            Hour 6
           </Button>
         </ButtonGroup>
       </div>
