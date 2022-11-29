@@ -1,11 +1,13 @@
-import pic1 from './SantaEldersburg.jpeg';
+import pic1 from './SantaEldersburg1.jpeg';
+import pic2 from './SantaEldersburg2.jpg';
+import pic3 from './SantaEldersburg3.jpg';
 import audio1 from './SantaEldersburg.mp3';
 
 const santaSykesville = {
   name: 'Santa Eldersburg',
-  photos: [pic1],
+  photos: [ pic1 ],
   videos: [],
-  audio: [audio1],
+  audio: [ audio1 ],
 };
 
 export default santaSykesville;

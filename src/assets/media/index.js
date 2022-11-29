@@ -6,8 +6,8 @@ import santaEldersburg from './SantaEldersburg';
 import schellville from './Schellville';
 
 export default [
-  christmasCountdown,
   crabs4Christmas,
+  christmasCountdown,
   lutherCornish,
   merriweather,
   santaEldersburg,
