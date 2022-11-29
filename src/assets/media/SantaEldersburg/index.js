@@ -5,7 +5,7 @@ import audio1 from './SantaEldersburg.mp3';
 
 const santaSykesville = {
   name: 'Santa Eldersburg',
-  photos: [ pic1 ],
+  photos: [ pic1, pic2, pic3 ],
   videos: [],
   audio: [ audio1 ],
 };
