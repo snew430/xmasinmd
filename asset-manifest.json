@@ -1,16 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.0d5911fd.css",
-    "main.js": "/static/js/main.30869a97.js",
+    "main.js": "/static/js/main.d92edd3a.js",
     "static/media/Crabs4Christmas.mp3": "/static/media/Crabs4Christmas.253f87bd8025cdedf0b5.mp3",
     "static/media/ChristmasCountdown2.jpeg": "/static/media/ChristmasCountdown2.227f77ab8e243e8f08a4.jpeg",
+    "static/media/Schellville.mp3": "/static/media/Schellville.ae4df36e9a4c6293f3e9.mp3",
     "static/media/Schellville1.jpeg": "/static/media/Schellville1.589fcff3231424c2c8f4.jpeg",
     "static/media/LutherCornish.jpg": "/static/media/LutherCornish.db80bc3fc6405739a918.jpg",
     "static/media/SantaEldersburg.mp3": "/static/media/SantaEldersburg.3c429baa3be4704de98a.mp3",
     "static/media/Merriweather4.jpeg": "/static/media/Merriweather4.f3c6501f83051028c0d3.jpeg",
     "static/media/Merriweather5.jpeg": "/static/media/Merriweather5.07c8ee2e8d9f477446aa.jpeg",
+    "static/media/LutherCornish.mp3": "/static/media/LutherCornish.2b1cee580fa738f00de0.mp3",
     "static/media/Merriweather1.MP3": "/static/media/Merriweather1.e820de30e542db101799.MP3",
-    "static/media/SantaEldersburg.jpeg": "/static/media/SantaEldersburg.cd943865f0d5964f9dc3.jpeg",
+    "static/media/SantaEldersburg1.jpeg": "/static/media/SantaEldersburg1.cd943865f0d5964f9dc3.jpeg",
     "static/media/Schellville2.jpeg": "/static/media/Schellville2.5cff1532cfd985471bdf.jpeg",
     "static/media/Schellville5.jpeg": "/static/media/Schellville5.bea15b4726d9a1042cee.jpeg",
     "static/media/presents-pan.jpg": "/static/media/presents-pan.3501ce692ab035ee289a.jpg",
@@ -27,15 +29,17 @@
     "static/media/tree-pan.jpg": "/static/media/tree-pan.c224f10ed2a606c64fb9.jpg",
     "static/media/snowflake-background.jpg": "/static/media/snowflake-background.80ce5df037d82e909ad8.jpg",
     "static/media/JohnPatti.jpg": "/static/media/JohnPatti.1a74a9614660a3d2fadc.jpg",
+    "static/media/SantaEldersburg2.jpg": "/static/media/SantaEldersburg2.130fda7e8cf0c0f1fa29.jpg",
     "static/media/Crabs4Christmas2.PNG": "/static/media/Crabs4Christmas2.cbc575e25ab2616d8574.PNG",
+    "static/media/SantaEldersburg3.jpg": "/static/media/SantaEldersburg3.77212f6a655597c85faa.jpg",
     "static/media/Crabs4Christmas1.JPG": "/static/media/Crabs4Christmas1.7668113771452acee593.JPG",
     "static/media/JoeEvelius.jpg": "/static/media/JoeEvelius.2874d83b950d38007f41.jpg",
     "index.html": "/index.html",
     "main.0d5911fd.css.map": "/static/css/main.0d5911fd.css.map",
-    "main.30869a97.js.map": "/static/js/main.30869a97.js.map"
+    "main.d92edd3a.js.map": "/static/js/main.d92edd3a.js.map"
   },
   "entrypoints": [
     "static/css/main.0d5911fd.css",
-    "static/js/main.30869a97.js"
+    "static/js/main.d92edd3a.js"
   ]
 }
