@@ -33,11 +33,10 @@ const Media = () =>
         { currentMedia.audio.length &&
           <h2 className="title">Audio Clips</h2>
         }
-
         { currentMedia.audio.map((aud, i) => (
           <audio key={ i } src={ aud } controls />
         )) }
-        { currentMedia.videos.length && <h2 className="title">Videos</h2> }
+        { currentMedia.videos.length > 0 && <h2 className="title">Videos</h2> }
         { currentMedia.videos.map((video, i) => (
           <video controls="controls" width="800" height="600" name="Video Name">
             <source src={ video } />
