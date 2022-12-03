@@ -72,6 +72,8 @@ button:hover {
 }
 
 .station-dates {
+  display: flex;
+  flex-direction: column;
   font-family: var(--block);
   font-weight: 500;
   border: 1px;

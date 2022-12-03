@@ -13,6 +13,13 @@ const stations = [
     ],
   },
   {
+    name: 'Radio Ocean City',
+    location: 'Ocean City, MD',
+    freq: 'www.radiooceancity.com',
+    link: 'https://www.radiooceancity.com/',
+    dates: [ 'All December Long 4:30pm - 5:30pm' ],
+  },
+  {
     name: 'WNAV-AM/FM',
     location: 'Annapolis, MD',
     freq: 'AM 1430 & FM 99.9',
