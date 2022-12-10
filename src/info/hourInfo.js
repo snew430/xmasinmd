@@ -68,7 +68,7 @@ const hour5 = [
   '“I’ll Be Home for Christmas” – Martina McBride',
   'Feature – Christmas Eve on Taylor’s Island',
   '“Christmas Is” – Percy Faith',
-  'Feature – A Christmastime Visit to',
+  'Feature – A Christmastime Visit to Schellville',
   'Feature – Brooks Robinson, Cal Ripken Jr. and John Waters share Christmas memories.',
   'Feature – Steve Bisciotti Christmas memories',
   '“The Christmas Song” – Nat “King” Cole',
