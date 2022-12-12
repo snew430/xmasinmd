@@ -31,7 +31,7 @@ const stations = [
     location: 'Easton, MD',
     freq: 'FM 96.7',
     link: 'https://www.forevermidshore.com/',
-    dates: ['Coming Soon'],
+    dates: ['Dec. 24th 5pm-10pm', 'Dec. 25th 12pm-5pm'],
   },
   {
     name: 'WCBC',
@@ -66,7 +66,14 @@ const stations = [
     location: 'Pokomoke City, MD',
     freq: 'FM 97.9',
     link: 'https://baycountry979.com/',
-    dates: ['Dec. 24th 6am=11am', 'Dec. 25th 11am-4pm'],
+    dates: ['Dec. 24th 6am-11am', 'Dec. 25th 11am-4pm'],
+  },
+  {
+    name: 'WNIX',
+    location: 'St. Michaels, MD',
+    freq: 'FM 94.3',
+    link: 'https://www.forevermidshore.com/',
+    dates: ['Dec. 25th 9am-2pm'],
   },
 ];
 
