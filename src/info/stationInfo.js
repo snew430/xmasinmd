@@ -34,6 +34,13 @@ const stations = [
     dates: ['Dec. 24th 5pm-10pm', 'Dec. 25th 12pm-5pm'],
   },
   {
+    name: 'WINX-FM',
+    location: 'St. Michaels, MD',
+    freq: 'FM 94.3',
+    link: 'https://www.forevermidshore.com/',
+    dates: ['Dec. 25th 9am-2pm'],
+  },
+  {
     name: 'WCBC',
     location: 'Cumberland, MD',
     freq: 'AM 1270',
@@ -68,13 +75,7 @@ const stations = [
     link: 'https://baycountry979.com/',
     dates: ['Dec. 24th 6am-11am', 'Dec. 25th 11am-4pm'],
   },
-  {
-    name: 'WNIX',
-    location: 'St. Michaels, MD',
-    freq: 'FM 94.3',
-    link: 'https://www.forevermidshore.com/',
-    dates: ['Dec. 25th 9am-2pm'],
-  },
+
 ];
 
 module.exports = stations;
