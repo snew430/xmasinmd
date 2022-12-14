@@ -66,7 +66,7 @@ const stations = [
     location: 'Hagerstown, MD',
     freq: 'AM 1240/FM 104.3',
     link: 'https://www.wjejradio.com/',
-    dates: ['Coming Soon'],
+    dates: ['Dec. 19th through Dec. 23rd', 'Starting at 2pm'],
   },
   {
     name: 'Bay Country',
