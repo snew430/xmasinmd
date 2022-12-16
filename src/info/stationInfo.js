@@ -38,7 +38,7 @@ const stations = [
     location: 'St. Michaels, MD',
     freq: 'FM 94.3',
     link: 'https://www.forevermidshore.com/',
-    dates: ['Dec. 25th 9am-2pm'],
+    dates: ['Dec. 25th 12pm-5pm'],
   },
   {
     name: 'WCBC',
