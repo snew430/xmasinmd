@@ -52,7 +52,7 @@ const stations = [
     location: 'Rehoboth Beach/Ocean City',
     freq: 'FM 92.7',
     link: 'https://www.wgmd.com/',
-    dates: ['Coming Soon'],
+    dates: ['Dec. 25th 5am-8am'],
   },
   {
     name: 'WHGM',
@@ -75,7 +75,6 @@ const stations = [
     link: 'https://baycountry979.com/',
     dates: ['Dec. 24th 6am-11am', 'Dec. 25th 11am-4pm'],
   },
-
 ];
 
 module.exports = stations;
