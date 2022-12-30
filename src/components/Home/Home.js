@@ -27,7 +27,8 @@ const Home = () => {
       <section className="p-text">
         <h3>On "Q" Productions proudly presents</h3>
         <span className="shoutout">Christmas in Maryland</span>
-        <p>
+        <p>Thank you for a merry 2022 Holiday Season! See you in 2023</p>
+        {/* <p>
           Christmas in Maryland is a five-hour audio journey letting listeners
           pause and feel the tradition that lives nestled between the mountains
           of western Maryland and the beaches of the Atlantic shore. Christmas
@@ -46,7 +47,7 @@ const Home = () => {
           We’ll also visit with famous Marylanders including Cal Ripken, Jr.,
           Brooks Robinson, Steve Bisciotti, Boog Powell, John Waters and Pat
           Sajak to see what Christmas in Maryland means to them.
-        </p>
+        </p> */}
       </section>
     </div>
   );

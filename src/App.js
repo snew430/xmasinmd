@@ -11,10 +11,8 @@ import {
   Sponsors,
   Lights,
 } from './components/index';
-// import DateCountdown from 'react-date-countdown-timer';
 
 function App() {
-  // const [tilXmas] = useState('2022-12-25');
 
   return (
     <Router>
