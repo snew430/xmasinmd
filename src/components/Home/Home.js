@@ -1,7 +1,8 @@
 import React from 'react';
 import CarouselComponent from '../Carousel-Component/Carousel-Component';
 import './Home.css';
-
+import wlifImage from '../../assets/images/wlifAppearance.jpg';
+import wlifMp3 from '../../assets/media/Wlif/wlifAppearance.mp3';
 import Snowfall from 'react-snowfall';
 
 const Home = () => {
@@ -26,7 +27,13 @@ const Home = () => {
 
       <section className="p-text">
         <h3>On "Q" Productions proudly presents</h3>
+  
         <span className="shoutout">Christmas in Maryland</span>
+        <div>
+        <img className="photo" src={wlifImage} alt="" /><br />
+        <audio src={wlifMp3} controls />
+<p>A very special thank you Greg Carpenter, Gina Crash, and the rest of our friends at WLIF.</p>
+        </div>
         <p>Thank you for a merry 2022 Holiday Season! See you in 2023</p>
         {/* <p>
           Christmas in Maryland is a five-hour audio journey letting listeners
