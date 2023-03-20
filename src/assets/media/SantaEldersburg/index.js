@@ -7,7 +7,7 @@ import movie1 from './SantaEldersburg.MOV'
 const santaSykesville = {
   name: 'Santa Eldersburg',
   photos: [ pic1, pic2, pic3 ],
-  videos: [ movie1 ],
+  videos: [ {video:movie1, poster:pic2} ],
   audio: [ audio1 ],
 };
 
