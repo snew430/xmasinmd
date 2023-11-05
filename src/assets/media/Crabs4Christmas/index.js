@@ -3,7 +3,10 @@ import pic2 from './Crabs4Christmas2.PNG';
 import audio1 from './Crabs4Christmas.mp3';
 
 const crabs4Christmas = {
-  name: 'Crabs For Christmas',
+  tab: 'Crabs For Christmas',
+  name: 'CRABS FOR CHRISTMAS',
+  description:
+    'For more than 40 years, David DeBoy has given us “Crabs For Christmas.” Listen how his little Christmas creation has become tradition for us all and changed the way he spends his Christmas season....Hon!',
   photos: [pic1, pic2],
   videos: [],
   audio: [audio1],

@@ -27,14 +27,23 @@ const Home = () => {
 
       <section className="p-text">
         <h3>On "Q" Productions proudly presents</h3>
-  
+
         <span className="shoutout">Christmas in Maryland</span>
         <div>
-        <img className="photo" src={wlifImage} alt="" /><br />
-        <audio src={wlifMp3} controls />
-<p>A very special thank you Greg Carpenter, Gina Crash, and the rest of our friends at WLIF.</p>
+          <img className="photo" src={wlifImage} alt="" />
+          <br />
+          <audio src={wlifMp3} controls />
         </div>
-        <p>Thank you for a merry 2022 Holiday Season! See you in 2023</p>
+        <p>
+          Christmas In Maryland with host John Patti returns for a second year
+          on 101.9 WLIF-FM, Baltimore's Christmas music station. Listen Sunday
+          nights at 7pm beginning November 19, 2023.
+        </p>
+        <p>
+          A very special thanks to Greg Carpenter, Gina Crash and all of our
+          friends at WLIF-FM.
+        </p>
+        <span className="shoutout">MERRY CHRISTMAS</span>
         {/* <p>
           Christmas in Maryland is a five-hour audio journey letting listeners
           pause and feel the tradition that lives nestled between the mountains
@@ -56,6 +65,7 @@ const Home = () => {
           Sajak to see what Christmas in Maryland means to them.
         </p> */}
       </section>
+      <h3>We would love to hear from you!</h3>
     </div>
   );
 };

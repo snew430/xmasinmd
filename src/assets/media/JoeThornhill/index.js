@@ -1,7 +1,9 @@
 import audio1 from './JoeThornhill.mp3';
 
 const joeThornhill = {
-  name: 'Joe Thornhill',
+  tab: 'Joe Thornhill',
+  name: '',
+  description: '',
   photos: [],
   videos: [],
   audio: [audio1],

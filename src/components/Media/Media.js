@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
-import media from '../../assets/media';
+import {media} from '../../assets/media';
 import './media.css';
 
 const Media = () => {
@@ -22,13 +22,17 @@ const Media = () => {
               variant="secondary"
               onClick={() => changeMedia(category)}
             >
-              {category.name}
+              {category.tab}
             </Button>
           ))}
         </ButtonGroup>
       </div>
       <div className="media">
-        {currentMedia.audio.length && <h2 className="title">Audio Clips</h2>}
+        <h2>{currentMedia.name}</h2>
+        <p>{currentMedia.description}</p>
+        {currentMedia.audio.length > 0 && (
+          <h2 className="title">Audio</h2>
+        )}
         {currentMedia.audio.map((aud, i) => (
           <audio key={i} src={aud} controls />
         ))}
@@ -44,7 +48,7 @@ const Media = () => {
             <source src={video} />
           </video>
         ))}
-        {currentMedia.photos.length && <h2 className="title">Photos</h2>}
+        {currentMedia.photos.length > 0 && <h2 className="title">Photos</h2>}
         {currentMedia.photos.map((photo, i) => (
           <img className="photo" src={photo} key={i}></img>
         ))}

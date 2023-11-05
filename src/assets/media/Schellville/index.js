@@ -5,13 +5,18 @@ import pic4 from './Schellville4.jpeg';
 import pic5 from './Schellville5.jpeg';
 import pic6 from './Schellville6.jpeg';
 import pic7 from './Schellville7.jpeg';
-import audio1 from './Schellville.mp3'
+import pic8 from './Schellville8.JPG';
+import pic9 from './Schellville9.JPG';
+import audio1 from './Schellville.mp3';
 
 const schellville = {
-  name: 'Schellville',
-  photos: [ pic1, pic2, pic3, pic4, pic5, pic6, pic7 ],
+  tab: 'Schellville',
+  name: 'SCHELLVILLE: A CHRISTMAS VILLAGE',
+  description:
+    'Want to have a snowball battle no matter what the weather? Experience a sledding hill in the snow? How about a train ride around the village, or a trip through the Christmas tree maze? Of course, everyone wants to visit Santa and Mrs. Claus in their Chalet! You can do it all every evening during the holiday season at Schellville. Listen as we take you on a special audio tour.',
+  photos: [pic1, pic2, pic3, pic4, pic5, pic6, pic7, pic8, pic9],
   videos: [],
-  audio: [ audio1 ],
+  audio: [audio1],
 };
 
 export default schellville;

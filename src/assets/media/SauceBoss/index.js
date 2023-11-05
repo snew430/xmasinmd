@@ -1,7 +1,9 @@
 import audio1 from './SauceBoss.mp3';
 
 const sauceBoss = {
-  name: 'Sauce Boss',
+  tab: 'Sauce Boss',
+  name: '',
+  description: '',
   photos: [],
   videos: [],
   audio: [audio1],
