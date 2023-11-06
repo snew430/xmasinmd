@@ -7,20 +7,15 @@ import './media.css';
 const Media = () => {
   const [currentMedia, setCurrentMedia] = useState(media[0]);
 
-  function changeMedia(subject) {
-    setCurrentMedia(subject);
-    console.log(subject.audio);
-  }
-
   return (
     <>
       <div className="buttons">
-        <ButtonGroup aria-label="Basic example" size={'sm'}>
+        <ButtonGroup aria-label="button" size="sm">
           {media.map((category, i) => (
             <Button
               key={i}
               variant="secondary"
-              onClick={() => changeMedia(category)}
+              onClick={() => setCurrentMedia(category)}
             >
               {category.tab}
             </Button>
@@ -30,9 +25,7 @@ const Media = () => {
       <div className="media">
         <h2>{currentMedia.name}</h2>
         <p>{currentMedia.description}</p>
-        {currentMedia.audio.length > 0 && (
-          <h2 className="title">Audio</h2>
-        )}
+        {currentMedia.audio.length > 0 && <h2 className="title">Audio</h2>}
         {currentMedia.audio.map((aud, i) => (
           <audio key={i} src={aud} controls />
         ))}
