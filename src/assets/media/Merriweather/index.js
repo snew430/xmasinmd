@@ -6,7 +6,7 @@ import audio1 from './Merriweather1.MP3';
 
 const merriweather = {
   tab: 'Merriweather',
-  name: 'The Merriweather Symphony of Lights',
+  name: 'THE MERRIWEATHER SYMPHONY OF LIGHTS',
   description:
     'Over the years, millions of dollars have been raised for Howard County General Hospital each Christmas season on the grounds of Merriweather Post Pavilion. The Merriweather Symphony of Lights is now a time-honored magical tradition.  Listen as you learn how many lights make up the displays. Oh, and enjoy the “oohs and ahs”!',
   photos: [pic1, pic2, pic3, pic4],
