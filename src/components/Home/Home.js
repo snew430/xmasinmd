@@ -44,7 +44,7 @@ const Home = () => {
           friends at WLIF-FM.
         </p>
         <span className="shoutout">MERRY CHRISTMAS</span>
-        {/* <p>
+        <p>
           Christmas in Maryland is a five-hour audio journey letting listeners
           pause and feel the tradition that lives nestled between the mountains
           of western Maryland and the beaches of the Atlantic shore. Christmas
@@ -63,7 +63,7 @@ const Home = () => {
           We’ll also visit with famous Marylanders including Cal Ripken, Jr.,
           Brooks Robinson, Steve Bisciotti, Boog Powell, John Waters and Pat
           Sajak to see what Christmas in Maryland means to them.
-        </p> */}
+        </p>
       </section>
       <h3>We would love to hear from you!</h3>
     </div>

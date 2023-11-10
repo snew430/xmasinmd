@@ -86,7 +86,7 @@ const hour5 = {
     'Feature – Brooks Robinson, Cal Ripken Jr. and John Waters share Christmas memories.',
     'Feature – Steve Bisciotti Christmas memories',
     '“The Christmas Song” – Nat “King” Cole',
-    'Feature – “A Visit From Saint Nicholas” (Twas the Night Before Christmas” (Clement Clarke Moore) performed by Cal Ripken Jr., Steve Bisciotti and Brooks Robinson',
+    'Feature – “A Visit From Saint Nicholas” (Twas the Night Before Christmas” (Clement Clarke Moore) performed by John Waters, Cal Ripken Jr., Steve Bisciotti and Brooks Robinson',
   ],
 };
 

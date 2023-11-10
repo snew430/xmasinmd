@@ -1,6 +1,7 @@
 import pic1 from './Miracle34th1.JPG';
 import pic2 from './Miracle34th2.JPG';
 import audio1 from './Miracle34th.mp3';
+// import video1 from './Miracle34th.MOV';
 
 const miracle34th = {
   tab: 'Miracle on 34th',

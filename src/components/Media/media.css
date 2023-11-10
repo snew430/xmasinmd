@@ -19,3 +19,11 @@
   justify-content: center;
   align-items: center;
 }
+
+.media video,
+.media img {
+  max-height: 300px;
+  max-width: 400px;
+  min-height: 300px;
+  min-width: 300px;
+}
