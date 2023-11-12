@@ -13,10 +13,7 @@ const christmastown = {
   description:
     "Mike and Marsha Newton say “we live and breath Christmas.” Christmas Town helps local families with the donations received, bringing smiles and tears of joy to them. The Newtons have holiday displays illuminated from 5pm til 8pm weather permitting each evening during the holiday season at 6685 Friendship Road, Pittsville, Maryland. Please be safe when parking and please don't turn around in neighbors driveways .",
   photos: [pic1, pic2, pic3, pic4, pic5],
-  videos: [
-    {video: video1, poster: pic1},
-    {video: video2, poster: pic2},
-  ],
+  videos: [{video: video1}, {video: video2}],
   audio: [audio1],
 };
 

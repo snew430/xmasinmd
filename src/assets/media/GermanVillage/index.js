@@ -13,7 +13,7 @@ const germanVillage = {
   description:
     'Christmas Village in Baltimore is a combination of an outdoor and indoor holiday festival at West Shore Park at the Inner Harbor. The event is modeled after the traditional Christmas Markets in Germany, like the famous Christkindl Market in Nuremberg. Vendors in wooden booths offer traditional European food.',
   photos: [pic1, pic2, pic3, pic4, pic5, pic6],
-  videos: [{video: video1, poster: pic1}],
+  videos: [{video: video1}],
   audio: [audio1],
 };
 

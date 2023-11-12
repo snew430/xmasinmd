@@ -12,7 +12,11 @@ const Hour = () => {
       <div className="hour-buttons">
         <ButtonGroup aria-label="Basic example">
           {[hour1, hour2, hour3, hour4, hour5].map((hour) => (
-            <Button onClick={() => setCurrentHour(hour)} variant="success">
+            <Button
+              onClick={() => setCurrentHour(hour)}
+              variant="success"
+              key={hour}
+            >
               {hour.tab}
             </Button>
           ))}

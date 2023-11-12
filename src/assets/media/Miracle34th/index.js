@@ -10,7 +10,7 @@ const miracle34th = {
 Darlene Hughes' family also decorated her home on 34th street, so it only seemed fitting that the two would meet, get married and start the tradition that is what everyone now refers to as the Miracle On 34th Street. 
 Over the years many visitors from around the world have visited the lights on 34th Street and left messages in the books that the Hosiers leave on their porch for people to sign and share.`,
   photos: [pic1, pic2],
-  videos: [{video: video1, poster: pic1}],
+  videos: [{video: video1}],
   audio: [audio1],
 };
 

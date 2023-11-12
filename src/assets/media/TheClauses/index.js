@@ -6,9 +6,9 @@ const theClauses = {
   tab: 'The Clauses',
   name: 'SANTA DON & MRS. SUSIE CLAUS FROM CAMBRIDGE',
   description:
-    'were fewer Santa Clauses. On Christmas Day 2021 he decided to grow his white beard back and thus began the journey for Don and Susie Bartley, who are now known as Santa Don & Mrs. Susie Claus. They even went to Santa school together.',
+    'Don Bartley was watching the news one night and heard a report that there were fewer Santa Clauses. On Christmas Day 2021 he decided to grow his white beard back and thus began the journey for Don and Susie Bartley, who are now known as Santa Don & Mrs. Susie Claus. They even went to Santa school together.',
   photos: [pic1, pic2],
-  videos: [{video: video1, poster: pic1}],
+  videos: [{video: video1}],
   audio: [],
 };
 

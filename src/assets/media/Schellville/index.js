@@ -18,11 +18,7 @@ const schellville = {
   description:
     'Want to have a snowball battle no matter what the weather? Experience a sledding hill in the snow? How about a train ride around the village, or a trip through the Christmas tree maze? Of course, everyone wants to visit Santa and Mrs. Claus in their Chalet! You can do it all every evening during the holiday season at Schellville. Listen as we take you on a special audio tour.',
   photos: [pic1, pic2, pic3, pic4, pic5, pic6, pic7, pic8, pic9],
-  videos: [
-    {video: video1, poster: pic1},
-    {video: video2, poster: pic2},
-    {video: video3, poster: pic3},
-  ],
+  videos: [{video: video1}, {video: video2}, {video: video3}],
   audio: [audio1],
 };
 
