@@ -1,6 +1,6 @@
 import pic1 from './TheClauses1.JPG';
 import pic2 from './TheClauses2.JPG';
-import video1 from './TheClauses.MOV';
+import video1 from './TheClauses.mp4';
 
 const theClauses = {
   tab: 'The Clauses',
