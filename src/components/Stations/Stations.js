@@ -15,10 +15,11 @@ const Stations = () => {
                 ({location}) - {freq}
               </p>
               <div className="station-dates">
-                Dates Coming Soon
-                {/* { dates.map((date) => (
-                  <p key={ name + date }>{ date }</p>
-                )) } */}
+                {dates.length > 0 ? (
+                  dates.map((date) => <p key={name + date}>{date}</p>)
+                ) : (
+                  <p>Dates Coming Soon</p>
+                )}
               </div>
             </div>
           </a>
