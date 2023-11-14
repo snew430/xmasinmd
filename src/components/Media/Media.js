@@ -3,8 +3,6 @@ import Button from 'react-bootstrap/Button';
 import {media} from '../../assets/media';
 import './media.css';
 
-console.log(media);
-
 const Media = () => {
   const [currentMedia, setCurrentMedia] = useState(media[0]);
 

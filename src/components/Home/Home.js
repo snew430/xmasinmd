@@ -1,11 +1,19 @@
-import React from 'react';
+import React, {useState} from 'react';
 import CarouselComponent from '../Carousel-Component/Carousel-Component';
 import './Home.css';
 import wlifImage from '../../assets/images/wlifAppearance.jpg';
 import wlifMp3 from '../../assets/media/Wlif/wlifAppearance.mp3';
 import Snowfall from 'react-snowfall';
+import Modal from 'react-bootstrap/Modal';
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
 
 const Home = () => {
+  const [showModal, setShowModal] = useState(false);
+
+  const handleClose = () => setShowModal(false);
+  const handleShow = () => setShowModal(true);
+
   return (
     <div className="home-body">
       <Snowfall
@@ -65,7 +73,43 @@ const Home = () => {
           Sajak to see what Christmas in Maryland means to them.
         </p>
       </section>
-      <h3>We would love to hear from you!</h3>
+
+      {/* <Button variant="secondary" onClick={handleShow}>
+          We would love to hear from you! Click Here to provide your feedback
+        </Button> */}
+
+      {/* <Modal show={showModal} onHide={handleClose} backdrop="static" centered>
+        <Modal.Header closeButton>
+          <Modal.Title>Christmas In Maryland Feedback</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <Form>
+            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+              <Form.Label>Email address</Form.Label>
+              <Form.Control
+                type="email"
+                placeholder="name@example.com"
+                autoFocus
+              />
+            </Form.Group>
+            <Form.Group
+              className="mb-3"
+              controlId="exampleForm.ControlTextarea1"
+            >
+              <Form.Label>How can we do better?</Form.Label>
+              <Form.Control as="textarea" rows={3} />
+            </Form.Group>
+          </Form>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+          <Button variant="primary" onClick={handleClose}>
+            Send
+          </Button>
+        </Modal.Footer>
+      </Modal> */}
     </div>
   );
 };
