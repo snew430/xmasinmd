@@ -7,12 +7,55 @@ import Snowfall from 'react-snowfall';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import emailjs from 'emailjs-com';
 
 const Home = () => {
   const [showModal, setShowModal] = useState(false);
+  const [formData, setFormData] = useState({
+    email: '',
+    audio: '',
+    places: '',
+    futureHappenings: '',
+    futureMusic: '',
+    feedback: '',
+  });
+  const [formThankYou, setFormThankYou] = useState(false);
 
-  const handleClose = () => setShowModal(false);
   const handleShow = () => setShowModal(true);
+
+  const handleFormSubmit = async (event) => {
+    event.preventDefault();
+
+    //John Pattis
+    const response = await emailjs.send(
+      'service_9y9c91u',
+      'template_rllf8x8',
+      formData,
+      'iHZKvGQZm10JDnZpb'
+    );
+
+    //Seans
+    // const response = await emailjs.send(
+    //   'service_obwznk9',
+    //   'template_nng7t5c',
+    //   formData,
+    //   'dJ8ZMsIbApKk8xjLU'
+    // );
+
+    response
+      ? console.log('SUCCESS!', response.status, response.text)
+      : console.log('FAILED...');
+
+    setFormThankYou(true);
+    setTimeout(() => {
+      setShowModal(false);
+      setFormThankYou(false);
+    }, 1000 * 3);
+  };
+
+  const handleFormData = (e) => {
+    setFormData({...formData, [e.target.name]: e.target.value});
+  };
 
   return (
     <div className="home-body">
@@ -74,42 +117,115 @@ const Home = () => {
         </p>
       </section>
 
-      {/* <Button variant="secondary" onClick={handleShow}>
-          We would love to hear from you! Click Here to provide your feedback
-        </Button> */}
+      <Button
+        variant="secondary"
+        onClick={handleShow}
+        size="lg"
+        className="mt-3"
+      >
+        We would love to hear from you! Click Here to provide your feedback
+      </Button>
 
-      {/* <Modal show={showModal} onHide={handleClose} backdrop="static" centered>
+      <Modal
+        show={showModal}
+        onHide={() => setShowModal(false)}
+        backdrop="static"
+        centered
+      >
         <Modal.Header closeButton>
           <Modal.Title>Christmas In Maryland Feedback</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <Form>
-            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-              <Form.Label>Email address</Form.Label>
-              <Form.Control
-                type="email"
-                placeholder="name@example.com"
-                autoFocus
-              />
-            </Form.Group>
-            <Form.Group
-              className="mb-3"
-              controlId="exampleForm.ControlTextarea1"
-            >
-              <Form.Label>How can we do better?</Form.Label>
-              <Form.Control as="textarea" rows={3} />
-            </Form.Group>
-          </Form>
+          {formThankYou ? (
+            <h2>Thank you for your response!</h2>
+          ) : (
+            <Form>
+              <Form.Group className="mb-3" controlId="formemail">
+                <Form.Label>Email address</Form.Label>
+                <Form.Control
+                  type="email"
+                  placeholder="name@example.com"
+                  autoFocus
+                  name="email"
+                  onChange={handleFormData}
+                  required
+                />
+              </Form.Group>
+              <Form.Group className="mb-3" controlId="formAudio">
+                <Form.Label>What was your favorite audio feature?</Form.Label>
+                <Form.Control
+                  as="textarea"
+                  rows={3}
+                  name="audio"
+                  required
+                  onChange={handleFormData}
+                />
+              </Form.Group>
+              <Form.Group className="mb-3" controlId="formPlaces">
+                <Form.Label>
+                  What surprised you most about any of the places we visited?
+                </Form.Label>
+                <Form.Control
+                  as="textarea"
+                  rows={3}
+                  name="places"
+                  required
+                  onChange={handleFormData}
+                />
+              </Form.Group>
+              <Form.Group className="mb-3" controlId="formFutureHappenings">
+                <Form.Label>
+                  Give us some suggested Christmas Holiday happenings to visit
+                  for future shows
+                </Form.Label>
+                <Form.Control
+                  as="textarea"
+                  rows={3}
+                  name="futureHappenings"
+                  required
+                  onChange={handleFormData}
+                />
+              </Form.Group>
+              <Form.Group className="mb-3" controlId="formFutureMusic">
+                <Form.Label>
+                  Give us some holiday music selections to consider for future
+                  shows
+                </Form.Label>
+                <Form.Control
+                  as="textarea"
+                  rows={3}
+                  name="futureMusic"
+                  required
+                  onChange={handleFormData}
+                />
+              </Form.Group>
+              <Form.Group
+                className="mb-3"
+                controlId="exampleForm.ControlInput1"
+              >
+                <Form.Label>Any other Feedback for us?</Form.Label>
+                <Form.Control
+                  as="textarea"
+                  rows={3}
+                  name="feedback"
+                  required
+                  onChange={handleFormData}
+                />
+              </Form.Group>
+            </Form>
+          )}
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
+          <Button variant="secondary" onClick={() => setShowModal(false)}>
             Close
           </Button>
-          <Button variant="primary" onClick={handleClose}>
-            Send
-          </Button>
+          {!formThankYou && (
+            <Button variant="primary" onClick={handleFormSubmit}>
+              Send
+            </Button>
+          )}
         </Modal.Footer>
-      </Modal> */}
+      </Modal>
     </div>
   );
 };
