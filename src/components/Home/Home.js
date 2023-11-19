@@ -34,14 +34,6 @@ const Home = () => {
       'iHZKvGQZm10JDnZpb'
     );
 
-    //Seans
-    // const response = await emailjs.send(
-    //   'service_obwznk9',
-    //   'template_nng7t5c',
-    //   formData,
-    //   'dJ8ZMsIbApKk8xjLU'
-    // );
-
     response
       ? console.log('SUCCESS!', response.status, response.text)
       : console.log('FAILED...');
