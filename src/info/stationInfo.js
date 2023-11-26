@@ -17,8 +17,7 @@ const stations = [
     location: 'Ocean City, MD',
     freq: 'www.radiooceancity.com',
     link: 'https://www.radiooceancity.com/',
-    dates: [],
-    // dates: ['All December Long 4:30pm - 5:30pm'],
+    dates: ['All December Long 6:00am - 7:00am and 3:00pm - 4:00pm'],
   },
   {
     name: 'WNAV-AM/FM',
@@ -49,8 +48,7 @@ const stations = [
     location: 'Cumberland, MD',
     freq: 'AM 1270',
     link: 'https://www.wcbcradio.com/',
-    dates: [],
-    // dates: ['Dec. 25th 7am-9am', 'Dec. 25th 12pm-3pm', 'Dec. 25th 8pm-10pm'],
+    dates: ['Dec. 24th', 'Dec. 25th'],
   },
   {
     name: 'WGMD',
@@ -81,8 +79,14 @@ const stations = [
     location: 'Pokomoke City, MD',
     freq: 'FM 97.9',
     link: 'https://baycountry979.com/',
-    dates: [],
-    // dates: ['Dec. 24th 6am-11am', 'Dec. 25th 11am-4pm'],
+    dates: ['Dec. 24th 5:00pm', 'Dec. 25th 5:00pm'],
+  },
+  {
+    name: 'CTG',
+    location: 'Pokomoke City, MD',
+    freq: 'FM 96.6 & 101.5',
+    link: 'https://ctgvariety.com/',
+    dates: ['Dec. 25th 7:00am'],
   },
 ];
 
