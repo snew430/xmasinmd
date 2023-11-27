@@ -75,15 +75,15 @@ const stations = [
     // dates: ['Dec. 19th through Dec. 23rd', 'Starting at 2pm'],
   },
   {
-    name: 'Bay Country',
+    name: 'WBEY Bay Country',
     location: 'Pokomoke City, MD',
     freq: 'FM 97.9',
     link: 'https://baycountry979.com/',
     dates: ['Dec. 24th 5:00pm', 'Dec. 25th 5:00pm'],
   },
   {
-    name: 'CTG',
-    location: 'Pokomoke City, MD',
+    name: 'WCTG',
+    location: 'Pokomoke City/Salisbury, MD',
     freq: 'FM 96.6 & 101.5',
     link: 'https://ctgvariety.com/',
     dates: ['Dec. 25th 7:00am'],
