@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.092920fc.css",
-    "main.js": "/static/js/main.57456677.js",
+    "main.js": "/static/js/main.8ff5ff2d.js",
     "static/media/LutherCornish.mp4": "/static/media/LutherCornish.0d83b49e4682ac845bb8.mp4",
     "static/media/TrainGarden1.mov": "/static/media/TrainGarden1.ffcf92dacf6ab8faba31.mov",
     "static/media/Christmastown2.mp4": "/static/media/Christmastown2.7327af2660d4e56d7477.mp4",
@@ -90,10 +90,10 @@
     "static/media/JoeEvelius.jpg": "/static/media/JoeEvelius.2874d83b950d38007f41.jpg",
     "index.html": "/index.html",
     "main.092920fc.css.map": "/static/css/main.092920fc.css.map",
-    "main.57456677.js.map": "/static/js/main.57456677.js.map"
+    "main.8ff5ff2d.js.map": "/static/js/main.8ff5ff2d.js.map"
   },
   "entrypoints": [
     "static/css/main.092920fc.css",
-    "static/js/main.57456677.js"
+    "static/js/main.8ff5ff2d.js"
   ]
 }
