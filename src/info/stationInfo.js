@@ -5,11 +5,11 @@ const stations = [
     freq: 'FM 101.9',
     link: 'https://www.audacy.com/todays1019',
     dates: [
-      'Nov. 19th - 7pm',
-      'Nov. 26th - 7pm',
-      'Dec. 3rd - 7pm',
-      'Dec. 10th - 7pm',
-      'Dec. 17th - 7pm',
+      'Nov. 19th 7:00pm',
+      'Nov. 26th 7:00pm',
+      'Dec. 3rd 7:00pm',
+      'Dec. 10th 7:00pm',
+      'Dec. 17th 7:00pm',
     ],
   },
   {
@@ -17,7 +17,7 @@ const stations = [
     location: 'Ocean City, MD',
     freq: 'www.radiooceancity.com',
     link: 'https://www.radiooceancity.com/',
-    dates: ['All December Long 6:00am - 7:00am and 3:00pm - 4:00pm'],
+    dates: ['All December Long 6:00am-7:00am & 3:00pm-4:00pm'],
   },
   {
     name: 'WNAV-AM/FM',
@@ -48,7 +48,7 @@ const stations = [
     location: 'Cumberland, MD',
     freq: 'AM 1270',
     link: 'https://www.wcbcradio.com/',
-    dates: ['Dec. 24th', 'Dec. 25th'],
+    dates: ['Dec. 25th 7:00am-10:00pm', 'Jan. 1st 6:00am-12:00pm'],
   },
   {
     name: 'WGMD',
