@@ -63,8 +63,13 @@ const stations = [
     location: 'Harve De Grace, MD',
     freq: 'FM 100.5',
     link: 'https://whgmgold.com/',
-    dates: [],
-    // dates: ['Dec. 16th - 7pm', 'Dec. 23rd - 7pm'],
+    dates: [
+      'Dec. 8th - 7:00pm',
+      'Dec. 15th - 7:00pm',
+      'Dec. 22nd - 7:00pm',
+      'Dec. 23rd - 7:00pm',
+      'Dec. 24th - 12:00pm',
+    ],
   },
   {
     name: 'WJEJ',
