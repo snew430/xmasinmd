@@ -20,14 +20,6 @@ const stations = [
     dates: ['All December Long 6:00am-7:00am & 3:00pm-4:00pm'],
   },
   {
-    name: 'WNAV-AM/FM',
-    location: 'Annapolis, MD',
-    freq: 'AM 1430 & FM 99.9',
-    link: 'https://wnav.com/',
-    dates: [],
-    // dates: ['Dec. 16th - 7pm', 'Dec. 23rd - 7pm'],
-  },
-  {
     name: 'WCEI',
     location: 'Easton, MD',
     freq: 'FM 96.7',
@@ -49,14 +41,6 @@ const stations = [
     dates: ['Dec. 25th 7:00am - 10:00pm', 'Jan. 1st 6:00am - 12:00pm'],
   },
   {
-    name: 'WGMD',
-    location: 'Rehoboth Beach/Ocean City',
-    freq: 'FM 92.7',
-    link: 'https://www.wgmd.com/',
-    dates: [],
-    // dates: ['Dec. 25th 5am-8am'],
-  },
-  {
     name: 'WHGM',
     location: 'Harve De Grace, MD',
     freq: 'FM 100.5',
@@ -68,14 +52,6 @@ const stations = [
       'Dec. 23rd - 7:00pm',
       'Dec. 24th - 12:00pm',
     ],
-  },
-  {
-    name: 'WJEJ',
-    location: 'Hagerstown, MD',
-    freq: 'AM 1240/FM 104.3',
-    link: 'https://www.wjejradio.com/',
-    dates: [],
-    // dates: ['Dec. 19th through Dec. 23rd', 'Starting at 2pm'],
   },
   {
     name: 'WBEY Bay Country',

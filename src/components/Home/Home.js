@@ -78,9 +78,12 @@ const Home = () => {
           <audio src={wlifMp3} controls />
         </div>
         <p>
-          Christmas In Maryland with host John Patti returns for a second year
-          on 101.9 WLIF-FM, Baltimore's Christmas music station. Listen Sunday
-          nights at 7pm beginning November 19, 2023.
+          Our thanks to 101.9 WLIF-FM, Baltimore's Christmas music station, and
+          our listeners for another fantastic Christmas season in 2023. We are
+          working on the 2024 edition of "Christmas In Maryland" right now. See
+          you in November. Feel free to go to the bottom of this page and
+          request a song or tell us about a Christmastime happening in your
+          area.
         </p>
         <p>
           A very special thanks to Greg Carpenter, Gina Crash and all of our
