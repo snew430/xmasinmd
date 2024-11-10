@@ -78,12 +78,12 @@ const Home = () => {
           <audio src={wlifMp3} controls />
         </div>
         <p>
-          Our thanks to 101.9 WLIF-FM, Baltimore's Christmas music station, and
-          our listeners for another fantastic Christmas season in 2023. We are
-          working on the 2024 edition of "Christmas In Maryland" right now. See
-          you in November. Feel free to go to the bottom of this page and
-          request a song or tell us about a Christmastime happening in your
-          area.
+          Our thanks to 101.9 WLIF-FM, Baltimore's Christmas Music Station, and
+          the Archdiocese of Baltimore for bringing you, our listeners, another
+          fantastic Christmas season. This year join us as we visit more
+          Maryland Christmas happenings than ever before. Please go to the
+          bottom of this page and request a song or tell us about a
+          Christmastime happening in your area.
         </p>
         <p>
           A very special thanks to Greg Carpenter, Gina Crash and all of our
@@ -91,24 +91,31 @@ const Home = () => {
         </p>
         <span className="shoutout">MERRY CHRISTMAS</span>
         <p>
-          Christmas in Maryland is a five-hour audio journey letting listeners
-          pause and feel the tradition that lives nestled between the mountains
-          of western Maryland and the beaches of the Atlantic shore. Christmas
-          in Maryland takes you from the big city to the small towns of
-          Maryland, capturing the stories of the season at every stop!
+          Christmas In Maryland is a five-hour audio journey allowing listeners
+          to pause and feel the tradition that lives nestled between the
+          mountains of western Maryland and the beaches of the Atlantic shore.
+          Christmas In Maryland takes you from the big city to the small towns
+          of Maryland, capturing the stories of the season at every stop, all
+          wrapped around your favorite holiday songs.
+        </p>
+        <p>Christmas In Maryland has captured Maryland at Christmastime!</p>
+        <p>
+          It's a visit to world-famous 34th Street in Baltimore. It's spending
+          time with family in LIttle Italy on Christmas Eve. It's tagging along
+          with Santa on one of his visits to western Maryland, and living the
+          dream of the Western Maryland Polar Express. It's also a sneak peak at
+          what has become known as "Christmastown" in Pittsville on Maryland's
+          eastern shore. You will also meet a couple from Cambridge who went to
+          "Santa School" to learn how to become Santa & Mrs. Claus. We'll
+          explain how hundreds of Marylanders have been starting the holiday
+          season in north Baltimore since the early 2000's. It involves brass,
+          bagpipes and a cathedral.
         </p>
         <p>
-          Christmas in Maryland has captured Maryland at Christmastime. It’s a
-          visit to world-famous 34th Street in Baltimore. It’s spending time
-          with family in Little Italy on Christmas Eve. It’s taking a sleighride
-          through Frostburg and living the dream of the western Maryland Polar
-          Express. It’s also a visit behind the counter of the Bethlehem,
-          Maryland Post Office as special postmarks are affixed to holiday mail.
-        </p>
-        <p>
-          We’ll also visit with famous Marylanders including Cal Ripken, Jr.,
-          Brooks Robinson, Steve Bisciotti, Boog Powell, John Waters and Pat
-          Sajak to see what Christmas in Maryland means to them.
+          We'll also visit with famous Marylanders including Cal Ripken Jr.,
+          Brooks Robinson, Steve Bisciotti, and John Waters. Plus TV game-show
+          legend Pat Sajak plays DJ for us and reveals what Christmas In
+          Maryland means to him.
         </p>
       </section>
 

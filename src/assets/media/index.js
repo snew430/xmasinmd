@@ -15,6 +15,7 @@ import sauceBoss from './SauceBoss';
 import schellville from './Schellville';
 import theClauses from './TheClauses';
 import trainGarden from './TrainGarden';
+import xmasValley from './XmasInTheValley';
 
 export const media = [
   crabs4Christmas,
@@ -29,4 +30,5 @@ export const media = [
   germanVillage,
   miracle34th,
   theClauses,
+  xmasValley,
 ];

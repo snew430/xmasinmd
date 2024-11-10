@@ -5,7 +5,7 @@ import './Sponsors.css';
 const Sponsors = () => {
   return (
     <>
-      <h5>A very special thank you to our sponsors</h5>
+      <h5>A very special thank you to our sponsor</h5>
       <div className="sponsor-links">
         {sponsors.map((sponsor) => (
           <a
