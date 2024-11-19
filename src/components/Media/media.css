@@ -18,6 +18,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0 3rem;
+  text-align: center;
 }
 
 .media video,
