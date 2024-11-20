@@ -4,14 +4,13 @@ const stations = [
     location: 'Baltimore, MD',
     freq: 'FM 101.9',
     link: 'https://www.audacy.com/todays1019',
-    // dates: [
-    //   'Nov. 19th 7:00pm',
-    //   'Nov. 26th 7:00pm',
-    //   'Dec. 3rd 7:00pm',
-    //   'Dec. 10th 7:00pm',
-    //   'Dec. 17th 7:00pm',
-    // ],
-    dates: ['Coming Soon'],
+    dates: [
+      'Nov. 24th 7:00pm',
+      'Dec. 1st 7:00pm',
+      'Dec. 8th 7:00pm',
+      'Dec. 15th 7:00pm',
+      'Dec. 22nd 7:00pm'
+    ],
   },
   {
     name: 'Radio Ocean City',
