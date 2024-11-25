@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 import CarouselComponent from '../Carousel-Component/Carousel-Component';
 import './Home.css';
-import wlifImage from '../../assets/images/wlifAppearance.jpg';
-import wlifMp3 from '../../assets/media/Wlif/wlifAppearance.mp3';
+import wlifImage from '../../assets/images/wlifAppearance.jpeg';
+import wlifMp3 from '../../assets/media/Wlif/wlifAppearance.MP3';
 import Snowfall from 'react-snowfall';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
