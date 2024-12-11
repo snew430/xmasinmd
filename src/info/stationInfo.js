@@ -9,7 +9,7 @@ const stations = [
       'Dec. 1st 7:00pm',
       'Dec. 8th 7:00pm',
       'Dec. 15th 7:00pm',
-      'Dec. 22nd 7:00pm'
+      'Dec. 22nd 7:00pm',
     ],
   },
   {
@@ -25,16 +25,16 @@ const stations = [
     location: 'Easton, MD',
     freq: 'FM 96.7',
     link: 'https://www.forevermidshore.com/',
-    // dates: ['Dec. 24th 7:00pm - 12:00am', 'Dec. 25th 9:00am - 2:00pm'],
-    dates: ['Coming Soon'],
+    dates: ['Dec. 24th 7:00pm - Midnight', 'Dec. 25th 12:00pm - 5:00pm'],
+    // dates: ['Coming Soon'],
   },
   {
     name: 'WINX-FM',
     location: 'St. Michaels, MD',
     freq: 'FM 94.3',
     link: 'https://www.forevermidshore.com/',
-    // dates: ['Dec. 25th 5:00am - 10:00am'],
-    dates: ['Coming Soon'],
+    dates: ['Dec. 25th 7:00am - 12:00pm'],
+    // dates: ['Coming Soon'],
   },
   {
     name: 'WCBC',
@@ -72,7 +72,22 @@ const stations = [
     freq: 'FM 96.6 & 101.5',
     link: 'https://ctgvariety.com/',
     // dates: ['Dec. 25th 7:00am'],
-    dates: ['Coming Soon']
+    dates: ['Coming Soon'],
+  },
+  {
+    name: 'WNAV',
+    location: 'Annapolis, MD',
+    freq: 'FM 99.9 & AM 1043',
+    link: 'https://wnav.com/',
+    dates: [
+      'Dec. 16th 4:00pm - 5:00pm',
+      'Dec. 17th 4:00pm - 5:00pm',
+      'Dec. 18th 4:00pm - 5:00pm',
+      'Dec. 19th 4:00pm - 5:00pm',
+      'Dec. 20th 4:00pm - 5:00pm',
+      'Dec. 24th 7:00pm - Midnight',
+    ],
+    // dates: ['Coming Soon'],
   },
 ];
 
