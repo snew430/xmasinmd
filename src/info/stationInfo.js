@@ -46,7 +46,7 @@ const stations = [
     location: 'Cumberland, MD',
     freq: 'AM 1270',
     link: 'https://www.wcbcradio.com/',
-    dates: ['Dec. 25th 8:00am - 8:00pm'],
+    dates: ['Dec. 25th 8:00am - 8:00pm', 'Jan. 1st 6:00am - 10:00am'],
     // dates: ['Coming Soon'],
   },
   // {
