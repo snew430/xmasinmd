@@ -80,10 +80,8 @@ const Home = () => {
         <p>
           Our thanks to 101.9 WLIF-FM, Baltimore's Christmas Music Station, and
           the Archdiocese of Baltimore for bringing you, our listeners, another
-          fantastic Christmas season. This year join us as we visit more
-          Maryland Christmas happenings than ever before. Please go to the
-          bottom of this page and request a song or tell us about a
-          Christmastime happening in your area.
+          fantastic Christmas season. Production on the 2025 edition of
+          Christmas In Maryland is underway.
         </p>
         <p>
           A very special thanks to Greg Carpenter, Gina Crash and all of our
